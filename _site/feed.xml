@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title></title>
+    <description></description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>PhD funding for 2017</title>
+        <description>&lt;p&gt;We’re looking for &lt;strong&gt;three new PhD researchers&lt;/strong&gt; for 2017/8 to work on vesicle self-replication, new tools for optical imaging, and nanopore sequencing. &lt;a href=&quot;mailto://mark.wallace@kcl.ac.uk&quot;&gt;Get in touch&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 Jul 2017 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2017/PhDadvert/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/PhDadvert/</guid>
+      </item>
+    
+      <item>
+        <title>Measuring the potential energy barrier to lipid bilayer electroporation.</title>
+        <description>&lt;p&gt;Electroporation is a common tool for gene transfection, tumour ablation, sterilization and drug delivery. Using experimental methods, we explore the temperature dependence of electropore formation in a model membrane system (droplet-interface bilayers), using optical single-channel recording to image the real-time gating of individual electropores. We investigate the influence of the agarose substrate on electropores formed in this system. Furthermore, by examining the temperature-dependent kinetics of pore opening and closure we are able to estimate a barrier to pore opening in 1,2-diphytanoyl-sn-glycero-3-phosphocholine (DPhPC) membranes to be 25.0 ± 8.3 kT, in agreement with previous predictions. Overall these measurements help support the toroidal model of membrane electroporation.&lt;/p&gt;
+
+&lt;p&gt;This article is part of the themed issue ‘Membrane pores: from structure and assembly, to medicine and technology’.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 19 Jun 2017 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/papers/Sengel_2017_PhilTrans</link>
+        <guid isPermaLink="true">http://localhost:4000/papers/Sengel_2017_PhilTrans</guid>
+      </item>
+    
+      <item>
+        <title>On demand modulation of lipid composition in an individual bilayer.</title>
+        <description>&lt;p&gt;Changes in local lipid composition are thought to play a key role in regulating many complex cellular processes. By studying lipid organization in artificial lipid bilayers the physical principles underlying these process can be studied in detail. However, such in vitro measurements are often hindered by heterogeneities in the lipid composition of individual bilayers prepared by current bulk methods. Here, the lipid composition of an individual droplet interface bilayer is varied by lipid titration into the bilayer from the oil phase in a microfluidic device. Control of lipid composition allows the reversible switching between single- and two-phase regions and sampling of specific lipid compositions in an individual bilayer. This method enables controlled modulation of composition-sensitive processes in a single lipid membrane.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 29 Jan 2017 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/papers/Danial_2017_SoftMatter</link>
+        <guid isPermaLink="true">http://localhost:4000/papers/Danial_2017_SoftMatter</guid>
+      </item>
+    
+      <item>
+        <title>Mark Wallace</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/people/MarkWallace.jpg&quot; alt=&quot;Image alt&quot; title=&quot;Mark Wallace&quot; /&gt;
+Mark studied Chemical Physics as an undergraduate at the University of Bristol, followed by a PhD in Chemistry at the University of Cambridge under the supervision of Professor David Klenerman. He was awarded the 2002 Gregorio Weber International Prize in Biological Fluorescence for this work. Mark then spent 2 years as a postdoctoral fellow at Stanford University, working with Professor Richard Zare. He returned to the U.K. in 2002 to undertake a second postdoctoral position at the National Institute for Medical Research with Dr Justin Molloy, before moving to Oxford in 2005 as a Royal Society University Research Fellow. He was subsequently appointed as a University lecturer and fellow of Wadham college in 2006. He joined King’s in 2016 as part of its expansion of Chemistry.&lt;/p&gt;
+
+&lt;p&gt;In 2009 Mark was appointed to the steering committee of the British Biophysical Society. Patents arising from his work have also been licensed in the U.K. Mark has also been active in raising awareness of his group’s research beyond the lab, including video podcasting and participation in the 2014 “I’m a scientist get me out of here” competition. He was awarded the RSC Norman Heatley Award in 2015 in recognition of his work. He was made a Fellow of the RSC in the same year.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/people/MarkWallace</link>
+        <guid isPermaLink="true">http://localhost:4000/people/MarkWallace</guid>
+      </item>
+    
+      <item>
+        <title>Assembling the Tat protein translocase.</title>
+        <description>&lt;p&gt;The twin-arginine protein translocation system (Tat) transports folded proteins across the bacterial cytoplasmic membrane and the thylakoid membranes of plant chloroplasts. The Tat transporter is assembled from multiple copies of the membrane proteins TatA, TatB, and TatC. We combine sequence co-evolution analysis, molecular simulations, and experimentation to define the interactions between the Tat proteins of Escherichia coli at molecular-level resolution. In the TatBC receptor complex the transmembrane helix of each TatB molecule is sandwiched between two TatC molecules, with one of the inter-subunit interfaces incorporating a functionally important cluster of interacting polar residues. Unexpectedly, we find that TatA also associates with TatC at the polar cluster site. Our data provide a structural model for assembly of the active Tat translocase in which substrate binding triggers replacement of TatB by TatA at the polar cluster site. Our work demonstrates the power of co-evolution analysis to predict protein interfaces in multi-subunit complexes.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 03 Dec 2016 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/papers/Alcock_2016_eLife</link>
+        <guid isPermaLink="true">http://localhost:4000/papers/Alcock_2016_eLife</guid>
+      </item>
+    
+      <item>
+        <title>Carina Monico</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/people/monico_mugshot_small.jpg&quot; alt=&quot;Image alt&quot; title=&quot;Carina Monico&quot; /&gt;
+Carina was a postdoc in the lab working on the assembly of pore-forming toxins and the development of new single-molecule methods.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/people/CarinaMonico</link>
+        <guid isPermaLink="true">http://localhost:4000/people/CarinaMonico</guid>
+      </item>
+    
+      <item>
+        <title>Imaging the dynamics of individual electropores.</title>
+        <description>&lt;p&gt;Electroporation is a widely used technique to permeabilize cell membranes. Despite its prevalence, our understanding of the mechanism of voltage-mediated pore formation is incomplete; methods capable of visualizing the time-dependent behavior of individual electropores would help improve our understanding of this process. Here, using optical single-channel recording, we track multiple isolated electropores in real time in planar droplet interface bilayers. We observe individual, mobile defects that fluctuate in size, exhibiting a range of dynamic behaviors. We observe fast (25 s−1) and slow (2 s−1) components in the gating of small electropores, with no apparent dependence on the applied potential. Furthermore, we find that electropores form preferentially in the liquid disordered phase. Our observations are in general supportive of the hydrophilic toroidal pore model of electroporation, but also reveal additional complexity in the interactions, dynamics, and energetics of electropores.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 May 2016 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/papers/Sengel_2016_PNAS</link>
+        <guid isPermaLink="true">http://localhost:4000/papers/Sengel_2016_PNAS</guid>
+      </item>
+    
+      <item>
+        <title>Chemical amplification of magnetic field effects relevant to avian magnetoreception.</title>
+        <description>&lt;p&gt;Magnetic fields as weak as the Earth’s can change the yields of radical pair reactions even though the energies involved are orders of magnitude smaller than the thermal energy, kBT, at room temperature. Proposed as the source of the light-dependent magnetic compass in migratory birds, the radical pair mechanism is thought to operate in cryptochrome flavoproteins in the retina. Here we demonstrate that the primary magnetic field effect on flavin photoreactions can be amplified chemically by slow radical termination reactions under conditions of continuous photoexcitation. The nature and origin of the amplification are revealed by studies of the intermolecular flavin–tryptophan and flavin–ascorbic acid photocycles and the closely related intramolecular flavin–tryptophan radical pair in cryptochrome. Amplification factors of up to 5.6 were observed for magnetic fields weaker than 1 mT. Substantial chemical amplification could have a significant impact on the viability of a cryptochrome-based magnetic compass sensor.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/papers/Kattnig_2016_PNAS</link>
+        <guid isPermaLink="true">http://localhost:4000/papers/Kattnig_2016_PNAS</guid>
+      </item>
+    
+      <item>
+        <title>Dissecting the Self-Assembly Kinetics of Multimeric Pore-forming Toxins.</title>
+        <description>&lt;p&gt;TPore-forming toxins are ubiquitous cytotoxins that are exploited by both bacteria and the immune response of eukaryotes. These toxins kill cells by assembling large multimeric pores on the cell membrane. However, a quantitative understanding of the mechanism and kinetics of this self-assembly process is lacking. We propose an analytically solvable kinetic model for stepwise, reversible oligomerization. In biologically relevant limits, we obtain simple algebraic expressions for the rate of pore formation, as well as for the concentration of pores as a function of time. Quantitative agreement is obtained between our model and time-resolved kinetic experiments of Bacillus thuringiensis Cry1Ac (tetrameric pore), aerolysin, Staphylococcus aureus α-haemolysin (heptameric pores) and Escherichia coli cytolysin A (dodecameric pore). Furthermore, our model explains how rapid self-assembly can take place with low concentrations of oligomeric intermediates, as observed in recent single-molecule fluorescence experiments of α-haemolysin self-assembly. We propose that suppressing the concentration of oligomeric intermediates may be the key to reliable, error-free, self-assembly of pores.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/papers/Lee_2016_JRoyalSocInterfaces</link>
+        <guid isPermaLink="true">http://localhost:4000/papers/Lee_2016_JRoyalSocInterfaces</guid>
+      </item>
+    
+      <item>
+        <title>Length-Dependent Formation of Transmembrane Pores by 310-Helical α-Aminoisobutyric Acid Foldamers</title>
+        <description>&lt;p&gt;The synthetic biology toolbox lacks extendable and conformationally controllable yet easy-to-synthesize building blocks that are long enough to span membranes. To meet this need, an iterative synthesis of α-aminoisobutyric acid (Aib) oligomers was used to create a library of homologous rigid-rod 310-helical foldamers, which have incrementally increasing lengths and functionalizable N- and C-termini. This library was used to probe the inter-relationship of foldamer length, self-association strength, and ionophoric ability, which is poorly understood. Although foldamer self-association in nonpolar chloroform increased with length, with a ∼14-fold increase in dimerization constant from Aib6 to Aib11, ionophoric activity in bilayers showed a stronger length dependence, with the observed rate constant for Aib11 ∼70-fold greater than that of Aib6. The strongest ionophoric activity was observed for foldamers with &amp;gt;10 Aib residues, which have end-to-end distances greater than the hydrophobic width of the bilayers used (∼2.8 nm); X-ray crystallography showed that Aib11 is 2.93 nm long. These studies suggest that being long enough to span the membrane is more important for good ionophoric activity than strong self-association in the bilayer. Planar bilayer conductance measurements showed that Aib11 and Aib13, but not Aib7, could form pores. This pore-forming behavior is strong evidence that Aibm (m ≥ 10) building blocks can span bilayers.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/papers/Jones_2016_JACS</link>
+        <guid isPermaLink="true">http://localhost:4000/papers/Jones_2016_JACS</guid>
+      </item>
+    
+  </channel>
+</rss>

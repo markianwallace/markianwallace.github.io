@@ -1,0 +1,39 @@
+---
+layout: page
+title: papers
+desc: Should be a list of our papers.
+---
+{% if paginator.page == 1 %}
+  {% for post in site.posts limit: 6 %}
+<link rel="prerender" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
+  {% endfor %}
+{% endif %}
+
+
+
+<ol reversed class="post-list post-list-numbered">
+  {% for post in site.categories.papers %}
+  <li class="post">
+    <a class="post-link" href="{{ post.externalurl }}">
+      <b class="post-title">{{ post.title }}</b>
+	  <b class="post-desc">{{ post.authors }}</b>
+	  <i class="post-desc">{{ post.journal }}</i>
+      <div class="post-desc">{% if post.desc %}{{ post.desc }}{% else %}{{ post.excerpt | strip_html}}{% endif %}</div>
+	</a>
+  </li>
+  {% endfor %}
+</ol>
+<!-- post-list -->
+
+<ul class="pager">
+  {% if paginator.previous_page %}
+  <li class="pager-prev">
+    <a href="{{ paginator.previous_page_path }}">Previous</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="pager-next">
+    <a href="{{ paginator.next_page_path }}">Next</a>
+  </li>
+  {% endif %}
+</ul>

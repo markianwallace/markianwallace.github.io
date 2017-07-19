@@ -1,0 +1,243 @@
+.site {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 $spacer;
+  @include make-container();
+}
+
+// RESPONSIVE SITE
+@include mq-up(sm) {
+  .site {
+    padding: 0 $spacer2;
+  }
+}
+
+// SITE HEADER ====================================
+
+.site-header {
+  margin: $spacer4 0 $spacer1;
+  @include clearfix();
+}
+
+.site-logo {
+  width: 5rem;
+  height: 5rem;
+}
+
+.site-nav {
+  display: flex;
+  justify-content: center;
+  //font-family: "Lato", serif;
+  font-size: 1.1rem;
+}
+
+.site-title {
+  text-align: center;
+}
+
+.site-nav a {
+  flex: 0 1 auto;
+  padding: 0 .25rem;
+  margin-right: $spacer0;
+  transition: background 0.1s ease-out;
+
+  &:hover {
+    text-decoration: none;
+	//text-decoration: underline;
+    //color: $link-color;
+    color: $link-hover-color;
+	//background-color: $brand-light-color;
+  }
+
+  &:focus,
+  &:active {
+    background-color: $link-color;
+    text-decoration: none;
+	color: #fff;
+  }
+
+  &.current {
+    font-weight: bold;
+  }
+}
+
+// SITE HEADER - RESPONSIVE ------------------
+
+@include mq-up(sm) {
+  .site-header {
+    margin: $spacer4 0 $spacer2;
+  }
+
+  .site-title {
+    margin-bottom: $spacer1;
+  }
+
+  .site-nav a {
+    margin-right: $spacer1;
+  }
+}
+
+@include mq-up(md) {
+  .site-logo {
+    margin-left: $spacer0;
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .site-nav {
+    float: right;
+    width: 75%;
+    margin-top: $spacer2;
+    justify-content: space-around;
+    font-size: 1.25rem;
+
+    a {
+      margin-right: 0;
+      padding: .25rem $spacer0;
+    }
+  }
+
+  .site-title {
+    float: left;
+    width: 20%;
+    text-align: inherit;
+    margin-bottom: $spacer0;
+  }
+}
+
+// SITE FOOTER ====================================
+
+.site-footer {
+  clear: both;
+  margin: 1rem 0 6rem;
+  padding-top: $spacer1;
+  font-family: $font-heading;
+  border-top: 1px solid $brand-light-color;
+}
+
+.site-footer {
+  ul, li {
+    margin-bottom: 0;
+   margin-top: 0;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+  }
+}
+
+.site-author {
+  font-weight: bold;
+  margin-left: $spacer0;
+}
+
+.site-copy  {
+	//@include clearfix();
+	float:left;
+}
+
+.site-source a {
+  color: $gray;
+}
+
+.site-links {
+  //@include clearfix();
+  //float:right;
+}
+
+.site-contact li,
+.site-source li {
+
+  &:not(:last-child)::after {
+    content: '|';
+    color: $brand-light-color;
+    margin: 0 .3rem 0 $spacer0;
+  }
+}
+
+// SITE FOOTER - RESPONSIVE ------------------
+@include mq-up(md) {
+  .site-contact {
+    float: right;
+    //width: 70%;
+    //text-align: right;
+  }
+
+  .site-source {
+    float: left;
+    //width: 30%;
+  }
+}
+
+@include mq-down(md) {
+  .site-contact {
+	//float: right;
+    //width: 70%;
+	margin-bottom: 1em;
+
+  }
+
+  .site-source {
+
+	//float: left;
+    //width: 30%;
+  }
+  
+  .site-copy {
+	//width:30%;
+	
+  }
+}
+
+// SITE SELECTION ====================================
+
+::-moz-selection {
+  background-color: $brand-color;
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background-color: $brand-color;
+  color: #fff;
+  text-shadow: none;
+}
+
+// SITE EMOJI ====================================
+
+.emoji {
+  width: 1em;
+  height: 1em;
+  vertical-align: inherit;
+
+  &.right { margin-right: .3rem; }
+  &.left { margin-left: .3rem; }
+}
+
+// HIDDEN CONTENT ===============================
+.hidden-child{ 
+display: none;
+}
+.hidden-parent:hover .hidden-child{
+display : block;
+}
+
+// FLEXSLIDER ========================
+.flexslider .slides > li{
+    display:block;
+	height: 180px;
+	width: auto !important;
+	//max-width:250px;
+	//width:100%;
+ 	//object-fit: cover;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
