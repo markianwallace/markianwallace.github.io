@@ -4,7 +4,7 @@
 title: wallaceLab               # used for the html title of every page
 desc: We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.
 
-url: http://beta.markwallace.org      # put your website hosting url here
+url: http://markwallace.org      # put your website hosting url here
 baseurl: ''                 # the subpath of your site, e.g. /blog
 permalink: /:year/:title/   # how should we display posts url
 
