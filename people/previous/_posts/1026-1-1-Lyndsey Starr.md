@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lyndsey Starr
-permalink: people/Lyndsey Starr
+permalink: people/LyndseyStarr
 subtitle: Lyndsey Starr
 mugshot: profile.png
 ---

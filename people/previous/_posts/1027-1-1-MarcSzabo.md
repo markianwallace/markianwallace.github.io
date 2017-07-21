@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Marc Szabo
-permalink: people/Marc Szabo
+permalink: people/MarcSzabo
 subtitle: Marc Szabo
 mugshot: szabo_mugshot_small.png
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: John Danial
-permalink: people/John Danial
+permalink: people/JohnDanial
 subtitle: John Danial
 mugshot: danial_mugshot_small.png
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mike Senior
-permalink: people/Mike Senior
+permalink: people/MikeSenior
 subtitle: Mike Senior
 mugshot: senior_mugshot_small.png
 ---
