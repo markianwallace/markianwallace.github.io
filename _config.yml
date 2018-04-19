@@ -2,7 +2,7 @@
 
 # Site settings
 title: wallaceLab               # used for the html title of every page
-desc: We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.
+desc: #  We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.
 
 url: http://markwallace.org      # put your website hosting url here
 baseurl: ''                 # the subpath of your site, e.g. /blog
@@ -34,7 +34,7 @@ navigation:
     desc: Publications
   - title: People
     url: /people/
-    desc: Current and previous lab members	
+    desc: Current and previous lab members
   - title: News
     url: /news/
     desc: "What's happening in the lab?"
@@ -68,6 +68,5 @@ relative_permalinks: false
 exclude:
   - README.md
   - vendor
-gems:
+plugins:
   - jekyll-paginate
-
