@@ -1,0 +1,8 @@
+---
+title: Controlling Anomalous Diffusion in Lipid Membranes.
+authors: H. L. E. Coker, M. R. Cheetham, D. R. Kattnig, Y. J. Wang, S. Garcia-Manyes, M. I. Wallace
+journal: ArXiv
+externalurl: https://arxiv.org/abs/1709.04698	
+permalink: papers/Coker_2018_ArXiv
+---
+Diffusion in cell membranes is not just simple two-dimensional Brownian motion, but typically depends on the timescale of the observation. The physical origins of this anomalous sub-diffusion are unresolved, and model systems capable of quantitative and reproducible control of membrane diffusion have been recognised as a key experimental bottleneck. Here we control anomalous dif- fusion using supported lipids bilayers containing lipids derivatized with polyethylene glycol (PEG) headgroups. Bilayers with specific excluded area fractions are formed by control of PEG-lipid mole fraction. These bilayers exhibit a switch in diffusive behaviour, becoming anomalous as bilayer continuity is disrupted. Diffusion in these bilayers is well-described by a power-law dependence of the mean-square displacement with observation time. The parameters describing this diffusion can be tailored by simply controlling the mole fraction of PEG-lipid, producing bilayers that exhibit diffusive behaviour with similar characteristics to those observed in biological membranes.
