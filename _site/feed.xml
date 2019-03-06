@@ -7,6 +7,42 @@
     <atom:link href="http://markwallace.org/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Urea-Mediated Anomalous Diffusion in Supported Lipid Bilayers</title>
+        <description>&lt;p&gt;Diffusion in biological membranes is seldom simply Brownian motion; instead, the rate of diffusion is dependent on the timescale of observation and so is often described as anomalous. In order to help better understand this phenomenon, model systems are needed where the anomalous subdiffusion of the lipid bilayer can be tuned and quantified. We recently demonstrated one such model by controlling the excluded area fraction in supported lipid bilayers (SLBs) through the incorporation of lipids derivatised with polyethylene glycol. Here we extend this work, using urea to induce anomalous subdiffusion in SLBs. By tuning incubation time and urea concentration, we produce DCPC bilayers that exhibit anomalous behaviour on the same scale observed in biological membranes.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 27 Sep 2018 00:00:00 +0100</pubDate>
+        <link>http://markwallace.org/papers/Weatherill_2018_ArXiv</link>
+        <guid isPermaLink="true">http://markwallace.org/papers/Weatherill_2018_ArXiv</guid>
+      </item>
+    
+      <item>
+        <title>Lipid Bilayer Modulation using DNA Origami Mimics of Clathrin.</title>
+        <description>&lt;p&gt;The assembly of clathrin coats on vesicles is a major endocytotic pathway, and the effects of clathrin’s structure on vesicle formation are still unclear. Here we exploit DNA origami nanostructures designed as structural mimics of clathrin. Using DNA clathrin mimics we seek to isolate the effects of shape and structure on membrane properties. DNA nanostructures associate with lipid membranes via cholesterol anchors and can be triggered to polymerise into a meshwork on the membrane. We explore how this origami network can be used to induce structural changes in giant unilamellar vesicles.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 27 Sep 2018 00:00:00 +0100</pubDate>
+        <link>http://markwallace.org/papers/Ramakrishna_2018_BiophysJ</link>
+        <guid isPermaLink="true">http://markwallace.org/papers/Ramakrishna_2018_BiophysJ</guid>
+      </item>
+    
+      <item>
+        <title>Dynamic tuneable G protein-coupled receptor monomer-dimer populations.</title>
+        <description>&lt;p&gt;G protein-coupled receptors (GPCRs) are the largest class of membrane receptors, playing a key role in the regulation of processes as varied as neurotransmission and immune response. Evidence for GPCR oligomerisation has been accumulating that challenges the idea that GPCRs function solely as monomeric receptors; however, GPCR oligomerisation remains controversial primarily due to the difficulties in comparing evidence from very different types of structural and dynamic data. Using a combination of single-molecule and ensemble FRET, double electron–electron resonance spectroscopy, and simulations, we show that dimerisation of the GPCR neurotensin receptor 1 is regulated by receptor density and is dynamically tuneable over the physiological range. We propose a “rolling dimer” interface model in which multiple dimer conformations co-exist and interconvert. These findings unite previous seemingly conflicting observations, provide a compelling mechanism for regulating receptor signalling, and act as a guide for future physiological studies.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 27 Sep 2018 00:00:00 +0100</pubDate>
+        <link>http://markwallace.org/papers/Dijkman_NatComms_2018</link>
+        <guid isPermaLink="true">http://markwallace.org/papers/Dijkman_NatComms_2018</guid>
+      </item>
+    
+      <item>
+        <title>iSCAT Microscopy of Phase Separated Lipid Membranes.</title>
+        <description>&lt;p&gt;Characterizing the lateral organization of lipid membranes is important for understanding the function of cell membranes. The most common way to determine miscibility phase behavior is using fluorescence microscopy, where the presence of separate phases is imaged by the preferential partitioning of a labeled lipid. However, fluorescence microscopy requires adding an additional lipid component, and can also lead to photooxidation. Interference scattering microscopy (iSCAT) is a label-free imaging technique that images the differences in light scattering from different regions of a sample. iSCAT is capable of imaging coexisting domains. We quantify the sensitivity of iSCAT to physical parameters including thickness mismatch, topography, and the presence of defects.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 27 Sep 2018 00:00:00 +0100</pubDate>
+        <link>http://markwallace.org/papers/Blosser_2018_BiophysJ</link>
+        <guid isPermaLink="true">http://markwallace.org/papers/Blosser_2018_BiophysJ</guid>
+      </item>
+    
+      <item>
         <title>PhD funding for 2018</title>
         <description>&lt;p&gt;We’re looking for &lt;strong&gt;two new PhD researchers&lt;/strong&gt; for 2017/8 to work on vesicle self-replication, new tools for optical imaging, and nanopore sequencing. &lt;a href=&quot;mailto://mark.wallace@kcl.ac.uk&quot;&gt;Get in touch&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -64,43 +100,6 @@ Mark studied Chemical Physics as an undergraduate at the University of Bristol, 
         <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
         <link>http://markwallace.org/people/MarkWallace</link>
         <guid isPermaLink="true">http://markwallace.org/people/MarkWallace</guid>
-      </item>
-    
-      <item>
-        <title>Assembling the Tat protein translocase.</title>
-        <description>&lt;p&gt;The twin-arginine protein translocation system (Tat) transports folded proteins across the bacterial cytoplasmic membrane and the thylakoid membranes of plant chloroplasts. The Tat transporter is assembled from multiple copies of the membrane proteins TatA, TatB, and TatC. We combine sequence co-evolution analysis, molecular simulations, and experimentation to define the interactions between the Tat proteins of Escherichia coli at molecular-level resolution. In the TatBC receptor complex the transmembrane helix of each TatB molecule is sandwiched between two TatC molecules, with one of the inter-subunit interfaces incorporating a functionally important cluster of interacting polar residues. Unexpectedly, we find that TatA also associates with TatC at the polar cluster site. Our data provide a structural model for assembly of the active Tat translocase in which substrate binding triggers replacement of TatB by TatA at the polar cluster site. Our work demonstrates the power of co-evolution analysis to predict protein interfaces in multi-subunit complexes.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 03 Dec 2016 00:00:00 +0000</pubDate>
-        <link>http://markwallace.org/papers/Alcock_2016_eLife</link>
-        <guid isPermaLink="true">http://markwallace.org/papers/Alcock_2016_eLife</guid>
-      </item>
-    
-      <item>
-        <title>Carina Monico</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/people/monico_mugshot_small.jpg&quot; alt=&quot;Image alt&quot; title=&quot;Carina Monico&quot; /&gt;
-Carina was a postdoc in the lab working on the assembly of pore-forming toxins and the development of new single-molecule methods.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
-        <link>http://markwallace.org/people/CarinaMonico</link>
-        <guid isPermaLink="true">http://markwallace.org/people/CarinaMonico</guid>
-      </item>
-    
-      <item>
-        <title>Imaging the dynamics of individual electropores.</title>
-        <description>&lt;p&gt;Electroporation is a widely used technique to permeabilize cell membranes. Despite its prevalence, our understanding of the mechanism of voltage-mediated pore formation is incomplete; methods capable of visualizing the time-dependent behavior of individual electropores would help improve our understanding of this process. Here, using optical single-channel recording, we track multiple isolated electropores in real time in planar droplet interface bilayers. We observe individual, mobile defects that fluctuate in size, exhibiting a range of dynamic behaviors. We observe fast (25 s−1) and slow (2 s−1) components in the gating of small electropores, with no apparent dependence on the applied potential. Furthermore, we find that electropores form preferentially in the liquid disordered phase. Our observations are in general supportive of the hydrophilic toroidal pore model of electroporation, but also reveal additional complexity in the interactions, dynamics, and energetics of electropores.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 10 May 2016 00:00:00 +0100</pubDate>
-        <link>http://markwallace.org/papers/Sengel_2016_PNAS</link>
-        <guid isPermaLink="true">http://markwallace.org/papers/Sengel_2016_PNAS</guid>
-      </item>
-    
-      <item>
-        <title>Chemical amplification of magnetic field effects relevant to avian magnetoreception.</title>
-        <description>&lt;p&gt;Magnetic fields as weak as the Earth’s can change the yields of radical pair reactions even though the energies involved are orders of magnitude smaller than the thermal energy, kBT, at room temperature. Proposed as the source of the light-dependent magnetic compass in migratory birds, the radical pair mechanism is thought to operate in cryptochrome flavoproteins in the retina. Here we demonstrate that the primary magnetic field effect on flavin photoreactions can be amplified chemically by slow radical termination reactions under conditions of continuous photoexcitation. The nature and origin of the amplification are revealed by studies of the intermolecular flavin–tryptophan and flavin–ascorbic acid photocycles and the closely related intramolecular flavin–tryptophan radical pair in cryptochrome. Amplification factors of up to 5.6 were observed for magnetic fields weaker than 1 mT. Substantial chemical amplification could have a significant impact on the viability of a cryptochrome-based magnetic compass sensor.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
-        <link>http://markwallace.org/papers/Kattnig_2016_PNAS</link>
-        <guid isPermaLink="true">http://markwallace.org/papers/Kattnig_2016_PNAS</guid>
       </item>
     
   </channel>
