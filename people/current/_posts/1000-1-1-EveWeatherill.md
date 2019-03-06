@@ -6,5 +6,5 @@ subtitle: Eve Weatherill
 mugshot: Wetherill_mugshot_small.jpg
 ---
 ![Image alt]({{ site.baseurl }}/assets/img/people/Wetherill_mugshot_small.jpg "Eve Weatherill")
-Eve is a PDRA working in the lab on membrane protien folding and ion channel gating.
+Eve is a PDRA working in the lab on membrane protein folding and ion channel gating.
 
