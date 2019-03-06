@@ -9,8 +9,8 @@ carousel:
   - image: /assets/img/group-pics/group4.jpg
   - image: /assets/img/group-pics/group5.jpg
   - image: /assets/img/group-pics/group6.jpg
-  - image: /assets/img/group-pics/group7.jpg 
-  - image: /assets/img/group-pics/group8.jpg 
+  - image: /assets/img/group-pics/group7.jpg
+  - image: /assets/img/group-pics/group8.jpg
 ---
 <!-- Google CDN Hosted jQuery  -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
@@ -34,6 +34,21 @@ carousel:
 <div class="projects">
 {% assign postcount = 0 %}
 <div class="grid no-gutters">
+{% for posts in site.categories.PI %}
+  <div class="unit one-quarter">
+  <div class="project centred-and-cropped">
+    {% assign postcount = postcount | plus: 1 %}
+    <a href="{{ posts.url | prepend: site.baseurl | prepend: site.url }}">
+      <img  src="/assets/img/people/{{ posts.mugshot }}" /></a>
+    <h4 class="project-title"><a href="{{ posts.url | prepend: site.baseurl | prepend: site.url }}">{{posts.title}}</a></h4>
+    </div>
+  </div>
+  {% if postcount > 3 %}
+    </div>
+    <div class="grid no-gutters">
+    {% assign postcount = 0 %}
+  {% endif %}
+{% endfor %}
 {% for posts in site.categories.current %}
 	<div class="unit one-quarter">
 	<div class="project centred-and-cropped">
@@ -47,7 +62,7 @@ carousel:
 		</div>
 		<div class="grid no-gutters">
 		{% assign postcount = 0 %}
-	{% endif %} 
+	{% endif %}
 {% endfor %}
 </div>
 </div>
@@ -70,7 +85,7 @@ carousel:
 		</div>
 		<div class="grid no-gutters">
 		{% assign postcount = 0 %}
-	{% endif %} 
+	{% endif %}
 {% endfor %}
 </div>
 </div>

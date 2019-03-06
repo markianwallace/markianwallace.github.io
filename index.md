@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="lead">
-Hi, we are the [Wallace lab](people/) at [King's College London](kcl.ac.uk). We build **artificial mimics of the cell membrane**  to improve our understanding of the physics underpinning cell biology and engineer new devices inspired by biology.
+Hi, we are the [Wallace lab](people/) at [King's College London](http://kcl.ac.uk). We build **artificial mimics of the cell membrane**  to improve our understanding of the physics underpinning cell biology and engineer new devices inspired by biology.
 
 Our approach is to dismantle the membrane into its component parts, and then rebuild it from scratch to figure out what's going on. We do this by developing new optical techniques capable of detecting **individual molecules**.
 </div>
