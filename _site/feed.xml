@@ -7,6 +7,15 @@
     <atom:link href="http://markwallace.org/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Daisy Rogers-Simmonds</title>
+        <description>&lt;p&gt;(Daisy’s description)&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+        <link>http://markwallace.org/people/DaisyRogersSimmonds</link>
+        <guid isPermaLink="true">http://markwallace.org/people/DaisyRogersSimmonds</guid>
+      </item>
+    
+      <item>
         <title>Yuqing Wu</title>
         <description>&lt;p&gt;(Yuqing’s description)&lt;/p&gt;
 </description>
@@ -86,16 +95,6 @@ Christopher joined the Wallace group in 2017. Working in collaboration with Oxfo
         <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
         <link>http://markwallace.org/2017/WelcomePhDs/</link>
         <guid isPermaLink="true">http://markwallace.org/2017/WelcomePhDs/</guid>
-      </item>
-    
-      <item>
-        <title>Matthew Blosser</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/people/blosser_mugshot_small.jpg&quot; alt=&quot;Image alt&quot; title=&quot;Matthew Blosser&quot; /&gt;
-Matthew is a NIH research fellow working on nanoscopic lipid phase separation.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 01 Oct 2017 00:00:00 +0100</pubDate>
-        <link>http://markwallace.org/people/MatthewBlosser</link>
-        <guid isPermaLink="true">http://markwallace.org/people/MatthewBlosser</guid>
       </item>
     
   </channel>
