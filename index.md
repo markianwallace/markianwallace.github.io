@@ -33,6 +33,8 @@ Our approach is to dismantle the membrane into its component parts, and then reb
 		{{ post.journal }}
 	{% elsif post.desc %}
 		{{ post.desc }}
+  {% elsif post.mugshot %}
+    <p>{{ post.title}} joins the group.</p>
 	{% else %}
 		{{ post.excerpt }}
 	{% endif %}
