@@ -6,6 +6,4 @@ subtitle: Vivien Walter
 mugshot: walter_mugshot.jpg
 desc: Viven is a PDRA working in the lab on nanopore sensing.
 ---
-Vivien joined the Wallace group in 2018.
-
-Vivien defended his PhD in Strasbourg in 2017 on the **lipid membrane interactions with self-assembling peptides**; under the supervision of Carlos Marques.
+Vivien joined the Wallace group in 2018. His research, funded by Oxford Nanopore Technologies, explore nanopore sensing via Interferometric Scattering (iScat) microscopy.
