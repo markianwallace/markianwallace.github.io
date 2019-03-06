@@ -7,6 +7,16 @@
     <atom:link href="http://markwallace.org/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Hajra Basit</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/people/basit_mugshot_small.jpg&quot; alt=&quot;Image alt&quot; title=&quot;Hajra Basit&quot; /&gt;
+Hajra joined the Wallace group in Oxford on a Marie Curie IE fellowship in July 2014. In her time in the Wallace group, she studied the twin-arginine transport system, both, in vivo and in vitro. She then obtained a John Fell fund in collaboration with Simon Newstead, to extend this work to studying other transporter proteins of the MFS type in artificial bilayers, using single-molecule FRET.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+        <link>http://markwallace.org/people/HajraBasit</link>
+        <guid isPermaLink="true">http://markwallace.org/people/HajraBasit</guid>
+      </item>
+    
+      <item>
         <title>Christopher Parperis</title>
         <description>&lt;p&gt;&lt;img src=&quot;/assets/img/people/Parperis_mugshot.jpg&quot; alt=&quot;Image alt&quot; title=&quot;Christopher Parperis&quot; /&gt;
 Christopher joined the Wallace group in 2017. Working in collaboration with Oxford Nanopore Technologies his PhD research looks to examine the mechanism of DNA sensing in a protein nanopore.&lt;/p&gt;
@@ -88,15 +98,6 @@ Christopher joined the Wallace group in 2017. Working in collaboration with Oxfo
         <pubDate>Mon, 19 Jun 2017 00:00:00 +0100</pubDate>
         <link>http://markwallace.org/papers/Sengel_2017_PhilTrans</link>
         <guid isPermaLink="true">http://markwallace.org/papers/Sengel_2017_PhilTrans</guid>
-      </item>
-    
-      <item>
-        <title>On demand modulation of lipid composition in an individual bilayer.</title>
-        <description>&lt;p&gt;Changes in local lipid composition are thought to play a key role in regulating many complex cellular processes. By studying lipid organization in artificial lipid bilayers the physical principles underlying these process can be studied in detail. However, such in vitro measurements are often hindered by heterogeneities in the lipid composition of individual bilayers prepared by current bulk methods. Here, the lipid composition of an individual droplet interface bilayer is varied by lipid titration into the bilayer from the oil phase in a microfluidic device. Control of lipid composition allows the reversible switching between single- and two-phase regions and sampling of specific lipid compositions in an individual bilayer. This method enables controlled modulation of composition-sensitive processes in a single lipid membrane.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 29 Jan 2017 00:00:00 +0000</pubDate>
-        <link>http://markwallace.org/papers/Danial_2017_SoftMatter</link>
-        <guid isPermaLink="true">http://markwallace.org/papers/Danial_2017_SoftMatter</guid>
       </item>
     
   </channel>
