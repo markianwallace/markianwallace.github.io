@@ -7,16 +7,6 @@
     <atom:link href="http://markwallace.org/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Hajra Basit</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/people/basit_mugshot_small.jpg&quot; alt=&quot;Image alt&quot; title=&quot;Hajra Basit&quot; /&gt;
-Hajra joined the Wallace group in Oxford on a Marie Curie IE fellowship in July 2014. In her time in the Wallace group, she studied the twin-arginine transport system, both, in vivo and in vitro. She then obtained a John Fell fund in collaboration with Simon Newstead, to extend this work to studying other transporter proteins of the MFS type in artificial bilayers, using single-molecule FRET.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
-        <link>http://markwallace.org/people/HajraBasit</link>
-        <guid isPermaLink="true">http://markwallace.org/people/HajraBasit</guid>
-      </item>
-    
-      <item>
         <title>Christopher Parperis</title>
         <description>&lt;p&gt;&lt;img src=&quot;/assets/img/people/Parperis_mugshot.jpg&quot; alt=&quot;Image alt&quot; title=&quot;Christopher Parperis&quot; /&gt;
 Christopher joined the Wallace group in 2017. Working in collaboration with Oxford Nanopore Technologies his PhD research looks to examine the mechanism of DNA sensing in a protein nanopore.&lt;/p&gt;
@@ -81,23 +71,32 @@ Christopher joined the Wallace group in 2017. Working in collaboration with Oxfo
       </item>
     
       <item>
+        <title>Matthew Blosser</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/people/blosser_mugshot_small.jpg&quot; alt=&quot;Image alt&quot; title=&quot;Matthew Blosser&quot; /&gt;
+Matthew is a NIH research fellow working on nanoscopic lipid phase separation.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Oct 2017 00:00:00 +0100</pubDate>
+        <link>http://markwallace.org/people/MatthewBlosser</link>
+        <guid isPermaLink="true">http://markwallace.org/people/MatthewBlosser</guid>
+      </item>
+    
+      <item>
+        <title>Helena Coker</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/people/coker_mugshot_small.jpg&quot; alt=&quot;Image alt&quot; title=&quot;Helena Coker&quot; /&gt;
+Helena is a PhD student working on anomalous diffusion.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Sep 2017 00:00:00 +0100</pubDate>
+        <link>http://markwallace.org/people/HelenaCoker</link>
+        <guid isPermaLink="true">http://markwallace.org/people/HelenaCoker</guid>
+      </item>
+    
+      <item>
         <title>PhD funding for 2017</title>
         <description>&lt;p&gt;We’re looking for &lt;strong&gt;three new PhD researchers&lt;/strong&gt; for 2017/8 to work on vesicle self-replication, new tools for optical imaging, and nanopore sequencing. &lt;a href=&quot;mailto://mark.wallace@kcl.ac.uk&quot;&gt;Get in touch&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Jul 2017 00:00:00 +0100</pubDate>
         <link>http://markwallace.org/2017/PhDadvert/</link>
         <guid isPermaLink="true">http://markwallace.org/2017/PhDadvert/</guid>
-      </item>
-    
-      <item>
-        <title>Measuring the potential energy barrier to lipid bilayer electroporation.</title>
-        <description>&lt;p&gt;Electroporation is a common tool for gene transfection, tumour ablation, sterilization and drug delivery. Using experimental methods, we explore the temperature dependence of electropore formation in a model membrane system (droplet-interface bilayers), using optical single-channel recording to image the real-time gating of individual electropores. We investigate the influence of the agarose substrate on electropores formed in this system. Furthermore, by examining the temperature-dependent kinetics of pore opening and closure we are able to estimate a barrier to pore opening in 1,2-diphytanoyl-sn-glycero-3-phosphocholine (DPhPC) membranes to be 25.0 ± 8.3 kT, in agreement with previous predictions. Overall these measurements help support the toroidal model of membrane electroporation.&lt;/p&gt;
-
-&lt;p&gt;This article is part of the themed issue ‘Membrane pores: from structure and assembly, to medicine and technology’.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 19 Jun 2017 00:00:00 +0100</pubDate>
-        <link>http://markwallace.org/papers/Sengel_2017_PhilTrans</link>
-        <guid isPermaLink="true">http://markwallace.org/papers/Sengel_2017_PhilTrans</guid>
       </item>
     
   </channel>
