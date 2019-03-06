@@ -24,7 +24,7 @@ Our approach is to dismantle the membrane into its component parts, and then reb
 {% if post.authors %}
 	<a href="{{ root_url}}/papers">New paper  - {{ post.title }} </a>
 {% elsif post.mugshot %}
-  <a href="{{ root_url}}/papers">New lab member  - {{ post.title }} </a>
+  <a href="{{ root_url }}{{ post.url }}">New lab member  - {{ post.title }} </a>
 {% elsif post.title %}
   <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
 {% endif %}
