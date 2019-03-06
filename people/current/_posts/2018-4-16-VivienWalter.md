@@ -11,6 +11,6 @@ Vivien joined the Wallace group in London in 2018. His research, funded by Oxfor
 
 Vivien defended his PhD at Charles Sadron Institute in Strasbourg in 2017 on the lipid membrane interactions with self-assembling cell-penetrating peptides; under the supervision of Dr Carlos Marques. He made a first postdoc on the membrane-saccharide interaction with Dr Fabrice Thalmann and Dr Carlos Marques. Vivien is a certified Physics and Chemistry high-school teacher in France (CAPES).
 
-*Link to [Vivien's Website](https://http://www.vwalter.fr/)*
-*ResearcherID: G-4689-2018*
-*OrcID: 0000-0003-3203-9543*
+- *Link to [Vivien's Website](https://http://www.vwalter.fr/)*
+- *ResearcherID: G-4689-2018*
+- *OrcID: 0000-0003-3203-9543*
