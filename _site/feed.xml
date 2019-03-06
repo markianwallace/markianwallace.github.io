@@ -7,6 +7,15 @@
     <atom:link href="http://markwallace.org/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Yuqing Wu</title>
+        <description>&lt;p&gt;(Yuqing’s description)&lt;/p&gt;
+</description>
+        <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+        <link>http://markwallace.org/people/YuqingWu</link>
+        <guid isPermaLink="true">http://markwallace.org/people/YuqingWu</guid>
+      </item>
+    
+      <item>
         <title>Christopher Parperis</title>
         <description>&lt;p&gt;&lt;img src=&quot;/assets/img/people/Parperis_mugshot.jpg&quot; alt=&quot;Image alt&quot; title=&quot;Christopher Parperis&quot; /&gt;
 Christopher joined the Wallace group in 2017. Working in collaboration with Oxford Nanopore Technologies his PhD research looks to examine the mechanism of DNA sensing in a protein nanopore.&lt;/p&gt;
@@ -53,6 +62,15 @@ Christopher joined the Wallace group in 2017. Working in collaboration with Oxfo
       </item>
     
       <item>
+        <title>Vivien Walter</title>
+        <description>&lt;p&gt;(Vivien’s description)&lt;/p&gt;
+</description>
+        <pubDate>Mon, 16 Apr 2018 00:00:00 +0100</pubDate>
+        <link>http://markwallace.org/people/VivienWalter</link>
+        <guid isPermaLink="true">http://markwallace.org/people/VivienWalter</guid>
+      </item>
+    
+      <item>
         <title>PhD funding for 2018</title>
         <description>&lt;p&gt;We’re looking for &lt;strong&gt;two new PhD researchers&lt;/strong&gt; for 2017/8 to work on vesicle self-replication, new tools for optical imaging, and nanopore sequencing. &lt;a href=&quot;mailto://mark.wallace@kcl.ac.uk&quot;&gt;Get in touch&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -78,25 +96,6 @@ Matthew is a NIH research fellow working on nanoscopic lipid phase separation.&l
         <pubDate>Sun, 01 Oct 2017 00:00:00 +0100</pubDate>
         <link>http://markwallace.org/people/MatthewBlosser</link>
         <guid isPermaLink="true">http://markwallace.org/people/MatthewBlosser</guid>
-      </item>
-    
-      <item>
-        <title>Helena Coker</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/people/coker_mugshot_small.jpg&quot; alt=&quot;Image alt&quot; title=&quot;Helena Coker&quot; /&gt;
-Helena is a PhD student working on anomalous diffusion.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 01 Sep 2017 00:00:00 +0100</pubDate>
-        <link>http://markwallace.org/people/HelenaCoker</link>
-        <guid isPermaLink="true">http://markwallace.org/people/HelenaCoker</guid>
-      </item>
-    
-      <item>
-        <title>PhD funding for 2017</title>
-        <description>&lt;p&gt;We’re looking for &lt;strong&gt;three new PhD researchers&lt;/strong&gt; for 2017/8 to work on vesicle self-replication, new tools for optical imaging, and nanopore sequencing. &lt;a href=&quot;mailto://mark.wallace@kcl.ac.uk&quot;&gt;Get in touch&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 01 Jul 2017 00:00:00 +0100</pubDate>
-        <link>http://markwallace.org/2017/PhDadvert/</link>
-        <guid isPermaLink="true">http://markwallace.org/2017/PhDadvert/</guid>
       </item>
     
   </channel>
