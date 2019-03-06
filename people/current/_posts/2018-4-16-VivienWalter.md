@@ -3,7 +3,7 @@ layout: page
 title: Vivien Walter
 permalink: people/VivienWalter
 subtitle: Vivien Walter
-mugshot: profile.png
+mugshot: walter_mugshot.jpg
 desc: Viven is a PDRA working in the lab on nanopore sensing.
 ---
 Vivien joined the Wallace group in 2018.
