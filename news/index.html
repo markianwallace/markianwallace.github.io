@@ -13,7 +13,9 @@ desc: What's going on in the lab?
   {% for post in paginator.posts %}
   <li class="post">
     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-      <h4 class="post-title">{% if post.authors %} New paper  - {{ post.title }} {% else %}{{ post.title }}{% endif %}</h4>
+      <h4 class="post-title">{% if post.authors %} New paper  - {{ post.title }}
+        {% elsif post.mugshot %} New lab member  - {{ post.title }}
+        {% else %}{{ post.title }}{% endif %}</h4>
       <time class="post-date" datetime="{{ post.date }}">
       {% assign d = post.date | date: "%-d" %}
       {% assign m = post.date | date: "%B" %}
