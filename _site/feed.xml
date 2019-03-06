@@ -7,6 +7,16 @@
     <atom:link href="http://markwallace.org/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Christopher Parperis</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/people/Parperis_mugshot.jpg&quot; alt=&quot;Image alt&quot; title=&quot;Christopher Parperis&quot; /&gt;
+Christopher joined the Wallace group in 2017, in collaboration with Oxford Nanopore Technologies. His PhD research utilises microscopy techniques, such as optical single channel recording and single molecule fluorescence tracking, to image the mechanism of DNA sensing in a protein nanopore.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 Oct 2018 00:00:00 +0100</pubDate>
+        <link>http://markwallace.org/people/ChristopherParperis</link>
+        <guid isPermaLink="true">http://markwallace.org/people/ChristopherParperis</guid>
+      </item>
+    
+      <item>
         <title>Urea-Mediated Anomalous Diffusion in Supported Lipid Bilayers</title>
         <description>&lt;p&gt;Diffusion in biological membranes is seldom simply Brownian motion; instead, the rate of diffusion is dependent on the timescale of observation and so is often described as anomalous. In order to help better understand this phenomenon, model systems are needed where the anomalous subdiffusion of the lipid bilayer can be tuned and quantified. We recently demonstrated one such model by controlling the excluded area fraction in supported lipid bilayers (SLBs) through the incorporation of lipids derivatised with polyethylene glycol. Here we extend this work, using urea to induce anomalous subdiffusion in SLBs. By tuning incubation time and urea concentration, we produce DCPC bilayers that exhibit anomalous behaviour on the same scale observed in biological membranes.&lt;/p&gt;
 </description>
@@ -87,19 +97,6 @@
         <pubDate>Sun, 29 Jan 2017 00:00:00 +0000</pubDate>
         <link>http://markwallace.org/papers/Danial_2017_SoftMatter</link>
         <guid isPermaLink="true">http://markwallace.org/papers/Danial_2017_SoftMatter</guid>
-      </item>
-    
-      <item>
-        <title>Mark Wallace</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/people/MarkWallace.jpg&quot; alt=&quot;Image alt&quot; title=&quot;Mark Wallace&quot; /&gt;
-Mark studied Chemical Physics as an undergraduate at the University of Bristol, followed by a PhD in Chemistry at the University of Cambridge under the supervision of Professor David Klenerman. He was awarded the 2002 Gregorio Weber International Prize in Biological Fluorescence for this work. Mark then spent 2 years as a postdoctoral fellow at Stanford University, working with Professor Richard Zare. He returned to the U.K. in 2002 to undertake a second postdoctoral position at the National Institute for Medical Research with Dr Justin Molloy, before moving to Oxford in 2005 as a Royal Society University Research Fellow. He was subsequently appointed as a University lecturer and fellow of Wadham college in 2006. He joined King’s in 2016 as part of its expansion of Chemistry.&lt;/p&gt;
-
-&lt;p&gt;In 2009 Mark was appointed to the steering committee of the British Biophysical Society. Patents arising from his work have also been licensed in the U.K. Mark has also been active in raising awareness of his group’s research beyond the lab, including video podcasting and participation in the 2014 “I’m a scientist get me out of here” competition. He was awarded the RSC Norman Heatley Award in 2015 in recognition of his work. He was made a Fellow of the RSC in the same year.&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-        <link>http://markwallace.org/people/MarkWallace</link>
-        <guid isPermaLink="true">http://markwallace.org/people/MarkWallace</guid>
       </item>
     
   </channel>
