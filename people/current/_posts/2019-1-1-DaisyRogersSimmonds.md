@@ -6,4 +6,4 @@ subtitle: Daisy Rogers-Simmonds
 mugshot: profile.png
 desc: Daisy is a Chemical Biology Institute student working on nanopore sensing.
 ---
-(Daisy's description)
+Daisy is a Chemical Biology Institute student working on nanopore sensing.
