@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
   <channel>
     <title>Wallace Lab</title>
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 27 Aug 2021 12:18:28 +0000</pubDate>
-    <lastBuildDate>Fri, 27 Aug 2021 12:18:28 +0000</lastBuildDate>
+    <pubDate>Fri, 27 Aug 2021 13:13:37 +0000</pubDate>
+    <lastBuildDate>Fri, 27 Aug 2021 13:13:37 +0000</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -148,7 +148,7 @@ Daisy joins us through the Institute of Chemical Biology CDT programme. She work
         <title>Electroporation-Based Technologies and Treatments</title>
         <description>&lt;p&gt;&lt;label for=&quot;EBTT2018&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;EBTT2018&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/ebtt-34.jpg&quot; /&gt;&lt;br /&gt;EBTT 2018&lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;Mark presented work on electroporation imaging at the &lt;a href=&quot;http://2018.ebtt.org/&quot;&gt;2018 EBTT workshop&lt;/a&gt; in Ljubljana organised by Damijan Miklavčič and Lluis M. Mir. This international workshop is intended both for novices and experts in electroporation, including PhD students, researchers and users.&lt;/p&gt;
+&lt;p&gt;Mark presented work on electroporation imaging at the &lt;a href=&quot;https://2018.ebtt.org/&quot;&gt;2018 EBTT workshop&lt;/a&gt; in Ljubljana organised by Damijan Miklavčič and Lluis M. Mir. This international workshop is intended both for novices and experts in electroporation, including PhD students, researchers and users.&lt;/p&gt;
 </description>
         <pubDate>Sun, 11 Nov 2018 00:00:00 +0000</pubDate>
         <link>/articles/18/EBTT</link>
