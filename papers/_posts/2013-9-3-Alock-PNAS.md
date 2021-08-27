@@ -1,8 +1,10 @@
 ---
+layout: paper
 title: Live cell imaging shows reversible assembly of the TatA component of the twin-arginine protein transport system.
 authors: Alcock F, Baker MA, Greene NP, Palmer T, Wallace MI, Berks BC.
-journal: PNAS 2013 
-externalurl: http://www.ncbi.nlm.nih.gov/pubmed/24003141?dopt=Abstract
-permalink: papers/Alcock_2013_PNAS
+journal: PNAS 2013
+doi: 10.1073/pnas.1306738110
 ---
+{% marginfigure "tat.jpg" "assets/img/tat.jpg" "We used direct imaging of fluorescent protein-tagged Tat components in bacterial cells to show that the TatA element of the Tat system undergoes substrate- and proton motive force-dependent oligomerization." %}
+
 The twin-arginine translocation (Tat) machinery transports folded proteins across the cytoplasmic membrane of bacteria and the thylakoid membrane of chloroplasts. It has been inferred that the Tat translocation site is assembled on demand by substrate-induced association of the protein TatA. We tested this model by imaging YFP-tagged TatA expressed at native levels in living Escherichia coli cells in the presence of low levels of the TatA paralogue TatE. Under these conditions the TatA-YFP fusion supports full physiological Tat transport activity. In agreement with the TatA association model, raising the number of transport-competent substrate proteins within the cell leads to an increase in the number of large TatA complexes present. Formation of these complexes requires both a functional TatBC substrate receptor and the transmembrane proton motive force (PMF). Removing the PMF causes TatA complexes to dissociate, except in strains with impaired Tat transport activity. Based on these observations we propose that TatA assembly reaches a critical point at which oligomerization can be reversed only by substrate transport. In contrast to TatA-YFP, the oligomeric states of TatB-YFP and TatC-YFP fusions are not affected by substrate or the PMF, although TatB-YFP oligomerization does require TatC.

@@ -1,100 +1,162 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <description></description>
-    <link>http://markwallace.org</link>
-    <atom:link href="http://markwallace.org/feed.xml" rel="self" type="application/rss+xml" />
+    <title>Wallace Lab</title>
+    <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 27 Aug 2021 11:15:15 +0000</pubDate>
+    <lastBuildDate>Fri, 27 Aug 2021 11:15:15 +0000</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Constructing ion channels from water-soluble alpha-helical barrels</title>
+        <description>&lt;p&gt;&lt;label for=&quot;peptidebarrels.jpg&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;peptidebarrels.jpg&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/peptidebarrels.jpg&quot; /&gt;&lt;br /&gt;Designer alpha-helical barrels.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;The design of peptides that assemble in membranes to form functional ion channels is challenging. Specifically, hydrophobic interactions must be designed between the peptides and at the peptide–lipid interfaces simultaneously. Here, we take a multi-step approach towards this problem. First, we use rational de novo design to generate water-soluble α-helical barrels with polar interiors, and confirm their structures using high-resolution X-ray crystallography. These α-helical barrels have water-filled lumens like those of transmembrane channels. Next, we modify the sequences to facilitate their insertion into lipid bilayers. Single-channel electrical recordings and fluorescent imaging of the peptides in membranes show monodisperse, cation-selective channels of unitary conductance.
+&lt;!--more--&gt;
+Surprisingly, however, an X-ray structure solved from the lipidic cubic phase for one peptide reveals an alternative state with tightly packed helices and a constricted channel. To reconcile these observations, we perform computational analyses to compare the properties of possible different states of the peptide.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+        <link>/articles/21/Scott-NatChem</link>
+        <guid isPermaLink="true">/articles/21/Scott-NatChem</guid>
+        
+        
+        <category>papers</category>
+        
+      </item>
+    
+      <item>
+        <title>Single-molecule imaging of pore-forming toxin dynamics in droplet interface bilayers</title>
+        <description>&lt;p&gt;&lt;label for=&quot;methods.gif&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;methods.gif&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/methods.gif&quot; /&gt;&lt;br /&gt;Our chapter in Methods 619.&lt;/span&gt;
+Single-channel recording from pore-forming toxins (PFTs) provides a clear and direct molecular readout of toxin action. However to complete any mechanistic understanding of PFT behavior, this functional kinetic readout must be linked to the underlying changes in toxin structure, binding, conformation, or stoichiometry. Here we review how single-molecule imaging methods might be used to further our understanding of PFTs, and provide detailed practical guidance on the use of droplet interface bilayers as a method capable of examining both single-molecule fluorescence and single-channel electrical signals from PFTs.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+        <link>/articles/21/Parperis-methods</link>
+        <guid isPermaLink="true">/articles/21/Parperis-methods</guid>
+        
+        
+        <category>papers</category>
+        
+      </item>
+    
+      <item>
+        <title>Lockdown Christmas</title>
+        <description>&lt;figure&gt;&lt;img src=&quot;/assets/img/group/LockdownChristmas.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;A Christmas break over lockdown in London.&lt;/figcaption&gt;&lt;/figure&gt;
+</description>
+        <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
+        <link>/articles/21/LockdownChristmas</link>
+        <guid isPermaLink="true">/articles/21/LockdownChristmas</guid>
+        
+        <category>fun</category>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Fast slow folding of an outer membrane porin</title>
+        <description>&lt;p&gt;&lt;label for=&quot;OMPGFRET&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;OMPGFRET&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/OMPG_folding.jpg&quot; /&gt;&lt;br /&gt;Single-molecule FRET imaging of beta-barrel folding.&lt;/span&gt;
+In comparison to globular proteins, the spontaneous folding and insertion of β-barrel membrane proteins is surprisingly slow, typically occurring on the order of minutes. Using single-molecule Förster Resonance Energy Transfer to report on the folding of fluorescently-labelled Outer Membrane Protein G we measured the real-time insertion of a β-barrel membrane protein from an unfolded state. Folding events were rare, and fast (&amp;lt;20 ms); occurring immediately upon arrival at the membrane. This combination of infrequent, but rare, folding resolves this apparent dichotomy between slow ensemble kinetics, and the typical timescales of biomolecular folding.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
+        <link>/articles/20/Weatherill-bioarxiv</link>
+        <guid isPermaLink="true">/articles/20/Weatherill-bioarxiv</guid>
+        
+        
+        <category>papers</category>
+        
+      </item>
+    
+      <item>
+        <title>Single molecule imaging of cholesterol-dependent cytolysin assembly</title>
+        <description>&lt;p&gt;&lt;label for=&quot;PFOSMF&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;PFOSMF&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/PFOSMF.png&quot; /&gt;&lt;br /&gt;Tracking Perfingolysin O assembly and pore formation.&lt;/span&gt;
+We exploit single-molecule tracking and optical single channel recording in droplet interface bilayers to resolve the assembly pathway of the Cholesterol-Dependent Cytolysin, Perfringolysin O. This enables quantification of the stoichiometry of PFO complexes during assembly with millisecond temporal resolution and 20 nanometre spatial precision. Our results support a model of overall stepwise irreversible assembly, dominated by monomer addition, but with infrequent assembly from larger partial complexes. Furthermore, our results suggest a dominant proportion of inserted, but non-conductive intermediates in assembly.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+        <link>/articles/20/Senior_bioarxiv</link>
+        <guid isPermaLink="true">/articles/20/Senior_bioarxiv</guid>
+        
+        
+        <category>papers</category>
+        
+      </item>
+    
+      <item>
+        <title>Yujie Guo</title>
+        <description>&lt;p&gt;&lt;label for=&quot;YujieGuo&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;YujieGuo&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/yujie_mugshot.jpg&quot; /&gt;&lt;br /&gt;Yujie Guo&lt;/span&gt;
+Yujie joined the lab in 2019 as a PhD student as part of the King’s-China Scholarship Council PhD Scholarship programme. Her project uses iSCAT microscopy to understand polymerisation.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
+        <link>/articles/19/YujieGuo</link>
+        <guid isPermaLink="true">/articles/19/YujieGuo</guid>
+        
+        
+        <category>people</category>
+        
+        <category>current</category>
+        
+      </item>
+    
+      <item>
+        <title>Artificial signal transduction across membranes</title>
+        <description>&lt;p&gt;&lt;label for=&quot;cbic2019-toc.jpg&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbic2019-toc.jpg&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/cbic2019-toc.jpg&quot; /&gt;&lt;br /&gt;Artificial Signal Transduction across Membranes.&lt;/span&gt; A key conundrum in the construction of an artificial cell is to simultaneously maintain a robust physical barrier to the external environment, while also providing efficient exchange of information across this barrier. Biomimicry provides a number of avenues by which such requirements might be met. Herein, we provide a brief introduction to the challenges facing this field and explore progress to date.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate>
+        <link>/articles/19/Vanuytsel-ChemBioChem</link>
+        <guid isPermaLink="true">/articles/19/Vanuytsel-ChemBioChem</guid>
+        
+        
+        <category>papers</category>
+        
+      </item>
+    
+      <item>
+        <title>Modifying membrane morphology and interactions with DNA origami clathrin-mimic networks</title>
+        <description>&lt;p&gt;&lt;label for=&quot;DNAClathrin.jpg&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;DNAClathrin.jpg&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/DNAClathrin.jpg&quot; /&gt;&lt;br /&gt;We designed a three-arm DNA origami nanostructure whose shape resembles that of the clathrin triskelion.&lt;/span&gt;
+We describe the triggered assembly of a bioinspired DNA origami meshwork on a lipid membrane. DNA triskelia, three-armed DNA origami nanostructures inspired by the membrane-modifying protein clathrin, are bound to lipid mono- and bilayers using cholesterol anchors. Polymerization of triskelia, triggered by the addition of DNA staples, links triskelion arms to form a mesh. Using transmission electron microscopy, we observe nanoscale local deformation of a lipid monolayer induced by triskelion polymerization that is reminiscent of the formation of clathrin-coated pits. We also show that the polymerization of triskelia bound to lipid bilayers modifies interactions between them, inhibiting the formation of a synapse between giant unilamellar vesicles and a supported lipid bilayer.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+        <link>/articles/19/Journot-ACSNano</link>
+        <guid isPermaLink="true">/articles/19/Journot-ACSNano</guid>
+        
+        
+        <category>papers</category>
+        
+      </item>
     
       <item>
         <title>Daisy Rogers-Simmonds</title>
-        <description>&lt;p&gt;Daisy is a Chemical Biology Institute student working on nanopore sensing.&lt;/p&gt;
+        <description>&lt;p&gt;&lt;label for=&quot;DaisyRogersSimmonds&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;DaisyRogersSimmonds&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/daisy_mugshot.jpg&quot; /&gt;&lt;br /&gt;Daisy Rogers-Simmonds&lt;/span&gt;
+Daisy joins us through the Institute of Chemical Biology CDT programme. She works between the Wallace Group and the Membrane Biophysics Group at Imperial College in collaboration with Oxford Nanopore Technologies. Her research interests lie in the development and study of droplet interface bilayers using block copolymers, and the subsequent incorporation of nanopores into these systems. Prior to joining the group, Daisy obtained a BSc (Hons) in Chemistry from Imperial College.&lt;/p&gt;
+
+&lt;p&gt;Daisy has a keen interest in and passion for public outreach and science communication, and recently began voluntary work as a STEM Ambassador alongside her studies.&lt;/p&gt;
 </description>
         <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-        <link>http://markwallace.org/people/DaisyRogersSimmonds</link>
-        <guid isPermaLink="true">http://markwallace.org/people/DaisyRogersSimmonds</guid>
+        <link>/articles/19/DaisyRogersSimmonds</link>
+        <guid isPermaLink="true">/articles/19/DaisyRogersSimmonds</guid>
+        
+        
+        <category>people</category>
+        
+        <category>current</category>
+        
       </item>
     
       <item>
-        <title>Yuqing Wu</title>
-        <description>&lt;p&gt;(Yuqing’s description)&lt;/p&gt;
+        <title>Electroporation-Based Technologies and Treatments</title>
+        <description>&lt;p&gt;&lt;label for=&quot;EBTT2018&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;EBTT2018&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/ebtt-34.jpg&quot; /&gt;&lt;br /&gt;EBTT 2018&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Mark presented work on electroporation imaging at the &lt;a href=&quot;http://2018.ebtt.org/&quot;&gt;2018 EBTT workshop&lt;/a&gt; in Ljubljana organised by Damijan Miklavčič and Lluis M. Mir. This international workshop is intended both for novices and experts in electroporation, including PhD students, researchers and users.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
-        <link>http://markwallace.org/people/YuqingWu</link>
-        <guid isPermaLink="true">http://markwallace.org/people/YuqingWu</guid>
-      </item>
-    
-      <item>
-        <title>Christopher Parperis</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/people/Parperis_mugshot.jpg&quot; alt=&quot;Image alt&quot; title=&quot;Christopher Parperis&quot; /&gt;
-Christopher joined the Wallace group in 2017. Working in collaboration with Oxford Nanopore Technologies his PhD research looks to examine the mechanism of DNA sensing in a protein nanopore.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 12 Oct 2018 00:00:00 +0100</pubDate>
-        <link>http://markwallace.org/people/ChristopherParperis</link>
-        <guid isPermaLink="true">http://markwallace.org/people/ChristopherParperis</guid>
-      </item>
-    
-      <item>
-        <title>Urea-Mediated Anomalous Diffusion in Supported Lipid Bilayers</title>
-        <description>&lt;p&gt;Diffusion in biological membranes is seldom simply Brownian motion; instead, the rate of diffusion is dependent on the time scale of observation and so is often described as anomalous. In order to help better understand this phenomenon, model systems are needed where the anomalous diffusion of the lipid bilayer can be tuned and quantified. We recently demonstrated one such model by controlling the excluded area fraction in supported lipid bilayers (SLBs) through the incorporation of lipids derivatized with polyethylene glycol. Here, we extend this work, using urea to induce anomalous diffusion in SLBs. By tuning incubation time and urea concentration, we produce bilayers that exhibit anomalous behaviour on the same scale as that observed in biological membranes.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 27 Sep 2018 00:00:00 +0100</pubDate>
-        <link>http://markwallace.org/papers/Weatherill_2018_InterfaceFocus</link>
-        <guid isPermaLink="true">http://markwallace.org/papers/Weatherill_2018_InterfaceFocus</guid>
-      </item>
-    
-      <item>
-        <title>Lipid Bilayer Modulation using DNA Origami Mimics of Clathrin.</title>
-        <description>&lt;p&gt;The assembly of clathrin coats on vesicles is a major endocytotic pathway, and the effects of clathrin’s structure on vesicle formation are still unclear. Here we exploit DNA origami nanostructures designed as structural mimics of clathrin. Using DNA clathrin mimics we seek to isolate the effects of shape and structure on membrane properties. DNA nanostructures associate with lipid membranes via cholesterol anchors and can be triggered to polymerise into a meshwork on the membrane. We explore how this origami network can be used to induce structural changes in giant unilamellar vesicles.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 27 Sep 2018 00:00:00 +0100</pubDate>
-        <link>http://markwallace.org/papers/Ramakrishna_2018_BiophysJ</link>
-        <guid isPermaLink="true">http://markwallace.org/papers/Ramakrishna_2018_BiophysJ</guid>
-      </item>
-    
-      <item>
-        <title>Dynamic tuneable G protein-coupled receptor monomer-dimer populations.</title>
-        <description>&lt;p&gt;G protein-coupled receptors (GPCRs) are the largest class of membrane receptors, playing a key role in the regulation of processes as varied as neurotransmission and immune response. Evidence for GPCR oligomerisation has been accumulating that challenges the idea that GPCRs function solely as monomeric receptors; however, GPCR oligomerisation remains controversial primarily due to the difficulties in comparing evidence from very different types of structural and dynamic data. Using a combination of single-molecule and ensemble FRET, double electron–electron resonance spectroscopy, and simulations, we show that dimerisation of the GPCR neurotensin receptor 1 is regulated by receptor density and is dynamically tuneable over the physiological range. We propose a “rolling dimer” interface model in which multiple dimer conformations co-exist and interconvert. These findings unite previous seemingly conflicting observations, provide a compelling mechanism for regulating receptor signalling, and act as a guide for future physiological studies.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 27 Sep 2018 00:00:00 +0100</pubDate>
-        <link>http://markwallace.org/papers/Dijkman_NatComms_2018</link>
-        <guid isPermaLink="true">http://markwallace.org/papers/Dijkman_NatComms_2018</guid>
-      </item>
-    
-      <item>
-        <title>iSCAT Microscopy of Phase Separated Lipid Membranes.</title>
-        <description>&lt;p&gt;Characterizing the lateral organization of lipid membranes is important for understanding the function of cell membranes. The most common way to determine miscibility phase behavior is using fluorescence microscopy, where the presence of separate phases is imaged by the preferential partitioning of a labeled lipid. However, fluorescence microscopy requires adding an additional lipid component, and can also lead to photooxidation. Interference scattering microscopy (iSCAT) is a label-free imaging technique that images the differences in light scattering from different regions of a sample. iSCAT is capable of imaging coexisting domains. We quantify the sensitivity of iSCAT to physical parameters including thickness mismatch, topography, and the presence of defects.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 27 Sep 2018 00:00:00 +0100</pubDate>
-        <link>http://markwallace.org/papers/Blosser_2018_BiophysJ</link>
-        <guid isPermaLink="true">http://markwallace.org/papers/Blosser_2018_BiophysJ</guid>
-      </item>
-    
-      <item>
-        <title>Vivien Walter</title>
-        <description>&lt;p&gt;Vivien joined the Wallace group in 2018. His research, funded by Oxford Nanopore Technologies, explore nanopore sensing via Interferometric Scattering (iScat) microscopy.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 16 Apr 2018 00:00:00 +0100</pubDate>
-        <link>http://markwallace.org/people/VivienWalter</link>
-        <guid isPermaLink="true">http://markwallace.org/people/VivienWalter</guid>
-      </item>
-    
-      <item>
-        <title>PhD funding for 2018</title>
-        <description>&lt;p&gt;We’re looking for &lt;strong&gt;two new PhD researchers&lt;/strong&gt; for 2017/8 to work on vesicle self-replication, new tools for optical imaging, and nanopore sequencing. &lt;a href=&quot;mailto://mark.wallace@kcl.ac.uk&quot;&gt;Get in touch&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
-        <link>http://markwallace.org/2018/PhDadvert/</link>
-        <guid isPermaLink="true">http://markwallace.org/2018/PhDadvert/</guid>
-      </item>
-    
-      <item>
-        <title>New PhD researchers</title>
-        <description>&lt;p&gt;Steven and Chris join the lab! Welcome.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
-        <link>http://markwallace.org/2017/WelcomePhDs/</link>
-        <guid isPermaLink="true">http://markwallace.org/2017/WelcomePhDs/</guid>
+        <pubDate>Sun, 11 Nov 2018 00:00:00 +0000</pubDate>
+        <link>/articles/18/EBTT</link>
+        <guid isPermaLink="true">/articles/18/EBTT</guid>
+        
+        
+        <category>news</category>
+        
       </item>
     
   </channel>

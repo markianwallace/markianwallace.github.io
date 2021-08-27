@@ -1,45 +1,31 @@
 ---
 layout: default
+title: Wallace Lab
+nav_exclude: true
 ---
+{% for post in site.posts limit:10 %}
+<div>
+  <a href="{{ post.url | prepend: site.baseurl }}">
+    <h1 class="">{{ post.title }}</h1>
+  </a>
 
-<div class="lead">
-Hi, we are the [Wallace lab](people/) at [King's College London](http://kcl.ac.uk). We build **artificial mimics of the cell membrane**  to improve our understanding of the physics underpinning cell biology and engineer new devices inspired by biology.
+  {% if post.doi %}
+  <h3><a href="https://doi.org/{{post.doi}}">{{post.doi}}</a></h3>
+  {% else %}
+  <h3>{{ post.date | date: "%B, %Y" }}</h3>
+  {% endif %}
 
-Our approach is to dismantle the membrane into its component parts, and then rebuild it from scratch to figure out what's going on. We do this by developing new optical techniques capable of detecting **individual molecules**.
+  {% if post.marginfigure %}
+  <label for="{{post.marginfigure}}" class="margin-toggle">&#8853;</label>
+  {% endif %}
+
 </div>
 
-<hr/>
-<div class="lead">
-<!-- {% assign post = site.posts.first %}
-{% assign content = post.content %} -->
-
-
-{% for post in site.posts limit:2 %}
-
-
-<p class=" lead-about"><b class="desc">
-{% if page.title %}
-    <a href="{{ root_url }}{{ page.url }}">{{ page.title }}</a>
+{% if post.marginfigure %}
+<input type="checkbox" id="{{post.marginfigure}}" class="margin-toggle" />
+<span class="marginnote"><img class="fullwidth" src="/assets/img/{{post.marginfigure}}" /><br>{{post.figurecaption}}</span>
 {% endif %}
-{% if post.authors %}
-	<a href="{{ root_url}}/papers">New paper  - {{ post.title }} </a>
-{% elsif post.mugshot %}
-  <a href="{{ root_url }}{{ post.url }}">New lab member  - {{ post.title }} </a>
-{% elsif post.title %}
-  <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
-{% endif %}
-</b>
-	{% if post.authors %}
-		{{ post.journal }}
-	{% elsif post.desc %}
-		{{ post.desc }}
-  {% elsif post.mugshot %}
-    {{ post.title}} joins the group.
-	{% else %}
-		{{ post.excerpt }}
-	{% endif %}
-</p>
 
+{{ post.excerpt}}
+<br />
 {% endfor %}
-
-</div>

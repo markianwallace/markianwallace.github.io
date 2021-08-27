@@ -1,8 +1,10 @@
 ---
+layout: paper
 title: High-speed single-particle tracking of GM1 in model membranes reveals anomalous diffusion due to interleaflet coupling and molecular pinning.
 authors: Spillane KM, Ortega-Arroyo J, de Wit G, Eggeling C, Ewers H, Wallace MI, Kukura P.
-journal: Nano Lett. 2014 
-externalurl: http://www.ncbi.nlm.nih.gov/pubmed/25133992?dopt=Abstract
-permalink: papers/Spillane_2014_NanoLett
+journal: Nano Lett. 2014
+doi: 10.1021/nl502536u
 ---
+{% marginfigure "spillane.jpg" "assets/img/spillane.jpg" "We use interferometric scattering microscopy to track molecules labeled with 20–40 nm scattering gold beads with simultaneous <2 nm spatial and 20 μs temporal precision." %}
+
 The biological functions of the cell membrane are influenced by the mobility of its constituents, which are thought to be strongly affected by nanoscale structure and organization. Interactions with the actin cytoskeleton have been proposed as a potential mechanism with the control of mobility imparted through transmembrane "pickets" or GPI-anchored lipid nanodomains. This hypothesis is based on observations of molecular mobility using various methods, although many of these lack the spatiotemporal resolution required to fully capture all the details of the interaction dynamics. In addition, the validity of certain experimental approaches, particularly single-particle tracking, has been questioned due to a number of potential experimental artifacts. Here, we use interferometric scattering microscopy to track molecules labeled with 20-40 nm scattering gold beads with simultaneous  2 nm spatial and 20 μs temporal precision to investigate the existence and mechanistic origin of anomalous diffusion in bilayer membranes. We use supported lipid bilayers as a model system and demonstrate that the label does not influence time-dependent diffusion in the small particle limit (≤40 nm). By tracking the motion of the ganglioside lipid GM1 bound to the cholera toxin B subunit for different substrates and lipid tail properties, we show that molecular pinning and interleaflet coupling between lipid tail domains on a nanoscopic scale suffice to induce transient immobilization and thereby anomalous subdiffusion on the millisecond time scale.
