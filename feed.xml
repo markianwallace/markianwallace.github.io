@@ -5,25 +5,9 @@
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 01 Oct 2021 15:36:14 +0000</pubDate>
-    <lastBuildDate>Fri, 01 Oct 2021 15:36:14 +0000</lastBuildDate>
+    <pubDate>Fri, 01 Oct 2021 17:20:05 +0000</pubDate>
+    <lastBuildDate>Fri, 01 Oct 2021 17:20:05 +0000</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
-    
-      <item>
-        <title>Zhongdao Li</title>
-        <description>&lt;p&gt;&lt;label for=&quot;ZhongDaoLi&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ZhongDaoLi&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/zhongdao_mugshot.jpg&quot; /&gt;&lt;br /&gt;Zhongdao Li&lt;/span&gt;
-After a KURF summer studentship failed to dissuade Zhongdao from working in the lab he joins us for a PhD working on new methods to link artificial cells and real cells.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
-        <link>/articles/21/ZhongdaoLi</link>
-        <guid isPermaLink="true">/articles/21/ZhongdaoLi</guid>
-        
-        
-        <category>people</category>
-        
-        <category>current</category>
-        
-      </item>
     
       <item>
         <title>Guanzhong Zhai</title>
@@ -33,6 +17,22 @@ Supported by the King’s-China Scholarship Council PhD Scholarship programme (K
         <pubDate>Wed, 29 Sep 2021 00:00:00 +0000</pubDate>
         <link>/articles/21/GuanzhongZhai</link>
         <guid isPermaLink="true">/articles/21/GuanzhongZhai</guid>
+        
+        
+        <category>people</category>
+        
+        <category>current</category>
+        
+      </item>
+    
+      <item>
+        <title>Zhongdao Li</title>
+        <description>&lt;p&gt;&lt;label for=&quot;ZhongDaoLi&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ZhongDaoLi&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/zhongdao_mugshot.jpg&quot; /&gt;&lt;br /&gt;Zhongdao Li&lt;/span&gt;
+After a KURF summer studentship failed to dissuade Zhongdao from working in the lab he joins us for a PhD working on new methods to link artificial cells and real cells.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
+        <link>/articles/21/ZhongdaoLi</link>
+        <guid isPermaLink="true">/articles/21/ZhongdaoLi</guid>
         
         
         <category>people</category>
@@ -88,6 +88,24 @@ Single-channel recording from pore-forming toxins (PFTs) provides a clear and di
       </item>
     
       <item>
+        <title>Kharina Fenton</title>
+        <description>&lt;p&gt;&lt;label for=&quot;KharinaFenton&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;KharinaFenton&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/kharina_mugshot.jpg&quot; /&gt;&lt;br /&gt;Kharina Fenton&lt;/span&gt;
+Kharina joins the lab from Cardiff University after a placement in Australia studying 3D printable living electrodes. Her project will work to engineer a new class of artificial ion channels.
+&lt;!--more--&gt;
+Outside of science Kharina likes to travel, socialise and dance. She’s also currently learning how to code and speak Gujarati.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate>
+        <link>/articles/21/KharinaFenton</link>
+        <guid isPermaLink="true">/articles/21/KharinaFenton</guid>
+        
+        
+        <category>people</category>
+        
+        <category>current</category>
+        
+      </item>
+    
+      <item>
         <title>Fast slow folding of an outer membrane porin</title>
         <description>&lt;p&gt;&lt;label for=&quot;OMPGFRET&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;OMPGFRET&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/OMPG_folding.jpg&quot; /&gt;&lt;br /&gt;Single-molecule FRET imaging of beta-barrel folding.&lt;/span&gt;
 In comparison to globular proteins, the spontaneous folding and insertion of β-barrel membrane proteins is surprisingly slow, typically occurring on the order of minutes. Using single-molecule Förster Resonance Energy Transfer to report on the folding of fluorescently-labelled Outer Membrane Protein G we measured the real-time insertion of a β-barrel membrane protein from an unfolded state. Folding events were rare, and fast (&amp;lt;20 ms); occurring immediately upon arrival at the membrane. This combination of infrequent, but rare, folding resolves this apparent dichotomy between slow ensemble kinetics, and the typical timescales of biomolecular folding.&lt;/p&gt;
@@ -138,20 +156,6 @@ Yujie joined the lab in 2019 as a PhD student as part of the King’s-China Scho
         <pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate>
         <link>/articles/19/Vanuytsel-ChemBioChem</link>
         <guid isPermaLink="true">/articles/19/Vanuytsel-ChemBioChem</guid>
-        
-        
-        <category>papers</category>
-        
-      </item>
-    
-      <item>
-        <title>Modifying membrane morphology and interactions with DNA origami clathrin-mimic networks</title>
-        <description>&lt;p&gt;&lt;label for=&quot;DNAClathrin.jpg&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;DNAClathrin.jpg&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/DNAClathrin.jpg&quot; /&gt;&lt;br /&gt;We designed a three-arm DNA origami nanostructure whose shape resembles that of the clathrin triskelion.&lt;/span&gt;
-We describe the triggered assembly of a bioinspired DNA origami meshwork on a lipid membrane. DNA triskelia, three-armed DNA origami nanostructures inspired by the membrane-modifying protein clathrin, are bound to lipid mono- and bilayers using cholesterol anchors. Polymerization of triskelia, triggered by the addition of DNA staples, links triskelion arms to form a mesh. Using transmission electron microscopy, we observe nanoscale local deformation of a lipid monolayer induced by triskelion polymerization that is reminiscent of the formation of clathrin-coated pits. We also show that the polymerization of triskelia bound to lipid bilayers modifies interactions between them, inhibiting the formation of a synapse between giant unilamellar vesicles and a supported lipid bilayer.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
-        <link>/articles/19/Journot-ACSNano</link>
-        <guid isPermaLink="true">/articles/19/Journot-ACSNano</guid>
         
         
         <category>papers</category>
