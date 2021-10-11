@@ -5,9 +5,26 @@
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 01 Oct 2021 17:20:05 +0000</pubDate>
-    <lastBuildDate>Fri, 01 Oct 2021 17:20:05 +0000</lastBuildDate>
+    <pubDate>Mon, 11 Oct 2021 13:02:22 +0000</pubDate>
+    <lastBuildDate>Mon, 11 Oct 2021 13:02:22 +0000</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Lucian Heeler</title>
+        <description>&lt;p&gt;&lt;label for=&quot;LucianHeeler&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;LucianHeeler&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/lucian_mugshot.jpg&quot; /&gt;&lt;br /&gt;Lucian Heeler&lt;/span&gt;
+Lucian joins the group as part of the KCL &lt;a href=&quot;https://www.kcl.ac.uk/nmes/research/bipas-cdt&quot;&gt;BiPAS&lt;/a&gt; CDT programme. In collaboration with &lt;a href=&quot;https://www.crick.ac.uk/research/labs/jeremy-carlton&quot;&gt;Jeremy Carlton&lt;/a&gt; we will use new single-molecule tools and artificial membrane mimics to understand the mechanism of membrane fission by the Endosomal Sorting Complex Required for Transport (ESCRT).
+&lt;!--more--&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
+        <link>/articles/21/LucianHeeler</link>
+        <guid isPermaLink="true">/articles/21/LucianHeeler</guid>
+        
+        
+        <category>people</category>
+        
+        <category>current</category>
+        
+      </item>
     
       <item>
         <title>Guanzhong Zhai</title>
@@ -146,19 +163,6 @@ Yujie joined the lab in 2019 as a PhD student as part of the King’s-China Scho
         <category>people</category>
         
         <category>current</category>
-        
-      </item>
-    
-      <item>
-        <title>Artificial signal transduction across membranes</title>
-        <description>&lt;p&gt;&lt;label for=&quot;cbic2019-toc.jpg&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbic2019-toc.jpg&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/cbic2019-toc.jpg&quot; /&gt;&lt;br /&gt;Artificial Signal Transduction across Membranes.&lt;/span&gt; A key conundrum in the construction of an artificial cell is to simultaneously maintain a robust physical barrier to the external environment, while also providing efficient exchange of information across this barrier. Biomimicry provides a number of avenues by which such requirements might be met. Herein, we provide a brief introduction to the challenges facing this field and explore progress to date.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate>
-        <link>/articles/19/Vanuytsel-ChemBioChem</link>
-        <guid isPermaLink="true">/articles/19/Vanuytsel-ChemBioChem</guid>
-        
-        
-        <category>papers</category>
         
       </item>
     
