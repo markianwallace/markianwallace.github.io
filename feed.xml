@@ -5,9 +5,28 @@
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 Oct 2021 13:02:22 +0000</pubDate>
-    <lastBuildDate>Mon, 11 Oct 2021 13:02:22 +0000</lastBuildDate>
+    <pubDate>Wed, 20 Oct 2021 14:52:01 +0000</pubDate>
+    <lastBuildDate>Wed, 20 Oct 2021 14:52:01 +0000</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Geocaching fun</title>
+        <description>&lt;figure&gt;&lt;img src=&quot;/assets/img/group/geocaching.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Geocaching around London was enjoyed by all.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;!--more--&gt;
+&lt;p&gt;No really, it was great!
+&lt;img src=&quot;/assets/img/group/geocaching2.jpg&quot; alt=&quot;NoReally&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+        <link>/articles/21/Geocaching</link>
+        <guid isPermaLink="true">/articles/21/Geocaching</guid>
+        
+        <category>fun</category>
+        
+        
+        <category>news</category>
+        
+      </item>
     
       <item>
         <title>Lucian Heeler</title>
@@ -147,22 +166,6 @@ We exploit single-molecule tracking and optical single channel recording in drop
         
         
         <category>papers</category>
-        
-      </item>
-    
-      <item>
-        <title>Yujie Guo</title>
-        <description>&lt;p&gt;&lt;label for=&quot;YujieGuo&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;YujieGuo&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/yujie_mugshot.jpg&quot; /&gt;&lt;br /&gt;Yujie Guo&lt;/span&gt;
-Yujie joined the lab in 2019 as a PhD student as part of the King’s-China Scholarship Council PhD Scholarship programme. Her project uses iSCAT microscopy to understand polymerisation.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
-        <link>/articles/19/YujieGuo</link>
-        <guid isPermaLink="true">/articles/19/YujieGuo</guid>
-        
-        
-        <category>people</category>
-        
-        <category>current</category>
         
       </item>
     
