@@ -5,9 +5,26 @@
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 09 Feb 2022 10:50:39 +0000</pubDate>
-    <lastBuildDate>Wed, 09 Feb 2022 10:50:39 +0000</lastBuildDate>
+    <pubDate>Wed, 09 Feb 2022 11:49:27 +0000</pubDate>
+    <lastBuildDate>Wed, 09 Feb 2022 11:49:27 +0000</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Raj Paul</title>
+        <description>&lt;p&gt;&lt;label for=&quot;LucianHeeler&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;LucianHeeler&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/raj_mugshot.jpg&quot; /&gt;&lt;br /&gt;Raj Paul&lt;/span&gt;
+Raj  joins us as a Newton-Bhabha research internship as part of his PhD programme in &lt;a href=&quot;http://www.iacs.res.in&quot;&gt;IACS&lt;/a&gt;, India. He brings synthetic ion channels for single channel electrophysiology and single molecule imaging in Droplet Interface Bilayers.
+&lt;!--more--&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+        <link>/articles/21/RajPaul</link>
+        <guid isPermaLink="true">/articles/21/RajPaul</guid>
+        
+        
+        <category>people</category>
+        
+        <category>previous</category>
+        
+      </item>
     
       <item>
         <title>Geocaching fun</title>
@@ -149,20 +166,6 @@ In comparison to globular proteins, the spontaneous folding and insertion of β-
         <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
         <link>/articles/20/Weatherill-bioarxiv</link>
         <guid isPermaLink="true">/articles/20/Weatherill-bioarxiv</guid>
-        
-        
-        <category>papers</category>
-        
-      </item>
-    
-      <item>
-        <title>Single molecule imaging of cholesterol-dependent cytolysin assembly</title>
-        <description>&lt;p&gt;&lt;label for=&quot;PFOSMF&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;PFOSMF&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/PFOSMF.png&quot; /&gt;&lt;br /&gt;Tracking Perfingolysin O assembly and pore formation.&lt;/span&gt;
-We exploit single-molecule tracking and optical single channel recording in droplet interface bilayers to resolve the assembly pathway of the Cholesterol-Dependent Cytolysin, Perfringolysin O. This enables quantification of the stoichiometry of PFO complexes during assembly with millisecond temporal resolution and 20 nanometre spatial precision. Our results support a model of overall stepwise irreversible assembly, dominated by monomer addition, but with infrequent assembly from larger partial complexes. Furthermore, our results suggest a dominant proportion of inserted, but non-conductive intermediates in assembly.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
-        <link>/articles/20/Senior_bioarxiv</link>
-        <guid isPermaLink="true">/articles/20/Senior_bioarxiv</guid>
         
         
         <category>papers</category>
