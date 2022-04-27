@@ -3,10 +3,10 @@
   <channel>
     <title>Wallace Lab</title>
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 Apr 2022 16:03:55 +0000</pubDate>
-    <lastBuildDate>Wed, 27 Apr 2022 16:03:55 +0000</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 27 Apr 2022 16:05:03 +0000</pubDate>
+    <lastBuildDate>Wed, 27 Apr 2022 16:05:03 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -18,8 +18,8 @@
 &lt;img src=&quot;/assets/img/commute.jpg&quot; alt=&quot;NoReally&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/22/TerribleCommute</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/22/TerribleCommute</guid>
+        <link>/articles/22/TerribleCommute</link>
+        <guid isPermaLink="true">/articles/22/TerribleCommute</guid>
         
         <category>fun</category>
         
@@ -35,8 +35,8 @@ Raj  joins us as a Newton-Bhabha research internship as part of his PhD programm
 &lt;!--more--&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/21/RajPaul</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/21/RajPaul</guid>
+        <link>/articles/21/RajPaul</link>
+        <guid isPermaLink="true">/articles/21/RajPaul</guid>
         
         
         <category>people</category>
@@ -54,8 +54,8 @@ Raj  joins us as a Newton-Bhabha research internship as part of his PhD programm
 &lt;img src=&quot;/assets/img/group/geocaching2.jpg&quot; alt=&quot;NoReally&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/21/Geocaching</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/21/Geocaching</guid>
+        <link>/articles/21/Geocaching</link>
+        <guid isPermaLink="true">/articles/21/Geocaching</guid>
         
         <category>fun</category>
         
@@ -71,8 +71,8 @@ Lucian joins the group as part of the KCL &lt;a href=&quot;https://www.kcl.ac.uk
 &lt;!--more--&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/21/LucianHeeler</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/21/LucianHeeler</guid>
+        <link>/articles/21/LucianHeeler</link>
+        <guid isPermaLink="true">/articles/21/LucianHeeler</guid>
         
         
         <category>people</category>
@@ -87,8 +87,8 @@ Lucian joins the group as part of the KCL &lt;a href=&quot;https://www.kcl.ac.uk
 Supported by the King’s-China Scholarship Council PhD Scholarship programme (K-CSC), Guanzhong Zhai joins the Wallace group working on on new methods for artificial cell fabrication.&lt;/p&gt;
 </description>
         <pubDate>Wed, 29 Sep 2021 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/21/GuanzhongZhai</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/21/GuanzhongZhai</guid>
+        <link>/articles/21/GuanzhongZhai</link>
+        <guid isPermaLink="true">/articles/21/GuanzhongZhai</guid>
         
         
         <category>people</category>
@@ -106,8 +106,8 @@ Supported by the King’s-China Scholarship Council PhD Scholarship programme (K
 Surprisingly, however, an X-ray structure solved from the lipidic cubic phase for one peptide reveals an alternative state with tightly packed helices and a constricted channel. To reconcile these observations, we perform computational analyses to compare the properties of possible different states of the peptide.&lt;/p&gt;
 </description>
         <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/21/Scott-NatChem</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/21/Scott-NatChem</guid>
+        <link>/articles/21/Scott-NatChem</link>
+        <guid isPermaLink="true">/articles/21/Scott-NatChem</guid>
         
         
         <category>papers</category>
@@ -120,8 +120,8 @@ Surprisingly, however, an X-ray structure solved from the lipidic cubic phase fo
 After a KURF summer studentship failed to dissuade Zhongdao from working in the lab he joins us for a PhD working on new methods to link artificial cells and real cells.&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/21/ZhongdaoLi</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/21/ZhongdaoLi</guid>
+        <link>/articles/21/ZhongdaoLi</link>
+        <guid isPermaLink="true">/articles/21/ZhongdaoLi</guid>
         
         
         <category>people</category>
@@ -136,8 +136,8 @@ After a KURF summer studentship failed to dissuade Zhongdao from working in the 
 Single-channel recording from pore-forming toxins (PFTs) provides a clear and direct molecular readout of toxin action. However to complete any mechanistic understanding of PFT behavior, this functional kinetic readout must be linked to the underlying changes in toxin structure, binding, conformation, or stoichiometry. Here we review how single-molecule imaging methods might be used to further our understanding of PFTs, and provide detailed practical guidance on the use of droplet interface bilayers as a method capable of examining both single-molecule fluorescence and single-channel electrical signals from PFTs.&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/21/Parperis-methods</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/21/Parperis-methods</guid>
+        <link>/articles/21/Parperis-methods</link>
+        <guid isPermaLink="true">/articles/21/Parperis-methods</guid>
         
         
         <category>papers</category>
@@ -149,8 +149,8 @@ Single-channel recording from pore-forming toxins (PFTs) provides a clear and di
         <description>&lt;figure&gt;&lt;img src=&quot;/assets/img/group/LockdownChristmas.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;A Christmas break over lockdown in London.&lt;/figcaption&gt;&lt;/figure&gt;
 </description>
         <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/21/LockdownChristmas</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/21/LockdownChristmas</guid>
+        <link>/articles/21/LockdownChristmas</link>
+        <guid isPermaLink="true">/articles/21/LockdownChristmas</guid>
         
         <category>fun</category>
         
@@ -167,8 +167,8 @@ Kharina joins the lab from Cardiff University after a placement in Australia stu
 Outside of science Kharina likes to travel, socialise and dance. She’s also currently learning how to code and speak Gujarati.&lt;/p&gt;
 </description>
         <pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/21/KharinaFenton</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/21/KharinaFenton</guid>
+        <link>/articles/21/KharinaFenton</link>
+        <guid isPermaLink="true">/articles/21/KharinaFenton</guid>
         
         
         <category>people</category>
