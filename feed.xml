@@ -5,8 +5,8 @@
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 Apr 2022 16:00:35 +0000</pubDate>
-    <lastBuildDate>Wed, 27 Apr 2022 16:00:35 +0000</lastBuildDate>
+    <pubDate>Wed, 27 Apr 2022 16:03:55 +0000</pubDate>
+    <lastBuildDate>Wed, 27 Apr 2022 16:03:55 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -18,8 +18,8 @@
 &lt;img src=&quot;/assets/img/commute.jpg&quot; alt=&quot;NoReally&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/22/LondonCommuting</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/22/LondonCommuting</guid>
+        <link>http://localhost:4000/articles/22/TerribleCommute</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/22/TerribleCommute</guid>
         
         <category>fun</category>
         
@@ -98,22 +98,6 @@ Supported by the King’s-China Scholarship Council PhD Scholarship programme (K
       </item>
     
       <item>
-        <title>Zhongdao Li</title>
-        <description>&lt;p&gt;&lt;label for=&quot;ZhongDaoLi&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ZhongDaoLi&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/zhongdao_mugshot.jpg&quot; /&gt;&lt;br /&gt;Zhongdao Li&lt;/span&gt;
-After a KURF summer studentship failed to dissuade Zhongdao from working in the lab he joins us for a PhD working on new methods to link artificial cells and real cells.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/21/ZhongdaoLi</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/21/ZhongdaoLi</guid>
-        
-        
-        <category>people</category>
-        
-        <category>current</category>
-        
-      </item>
-    
-      <item>
         <title>Constructing ion channels from water-soluble alpha-helical barrels</title>
         <description>&lt;p&gt;&lt;label for=&quot;peptidebarrels.jpg&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;peptidebarrels.jpg&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/peptidebarrels.jpg&quot; /&gt;&lt;br /&gt;Designer alpha-helical barrels.&lt;/span&gt;&lt;/p&gt;
 
@@ -127,6 +111,22 @@ Surprisingly, however, an X-ray structure solved from the lipidic cubic phase fo
         
         
         <category>papers</category>
+        
+      </item>
+    
+      <item>
+        <title>Zhongdao Li</title>
+        <description>&lt;p&gt;&lt;label for=&quot;ZhongDaoLi&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ZhongDaoLi&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/zhongdao_mugshot.jpg&quot; /&gt;&lt;br /&gt;Zhongdao Li&lt;/span&gt;
+After a KURF summer studentship failed to dissuade Zhongdao from working in the lab he joins us for a PhD working on new methods to link artificial cells and real cells.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/articles/21/ZhongdaoLi</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/21/ZhongdaoLi</guid>
+        
+        
+        <category>people</category>
+        
+        <category>current</category>
         
       </item>
     
