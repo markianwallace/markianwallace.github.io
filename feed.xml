@@ -5,9 +5,23 @@
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 Apr 2022 16:05:03 +0000</pubDate>
-    <lastBuildDate>Wed, 27 Apr 2022 16:05:03 +0000</lastBuildDate>
+    <pubDate>Fri, 13 May 2022 19:15:06 +0000</pubDate>
+    <lastBuildDate>Fri, 13 May 2022 19:15:06 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Fast slow folding of an outer membrane porin</title>
+        <description>&lt;p&gt;&lt;label for=&quot;OMPGFRET&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;OMPGFRET&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/OMPG_folding.jpg&quot; /&gt;&lt;br /&gt;Single-molecule FRET imaging of beta-barrel folding.&lt;/span&gt;
+In comparison to globular proteins, the spontaneous folding and insertion of β-barrel membrane proteins is surprisingly slow, typically occurring on the order of minutes. Using single-molecule Förster Resonance Energy Transfer to report on the folding of fluorescently-labelled Outer Membrane Protein G we measured the real-time insertion of a β-barrel membrane protein from an unfolded state. Folding events were rare, and fast (&amp;lt;20 ms); occurring immediately upon arrival at the membrane. This combination of infrequent, but rare, folding resolves this apparent dichotomy between slow ensemble kinetics, and the typical timescales of biomolecular folding.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
+        <link>/articles/22/Weatherill-PNAS</link>
+        <guid isPermaLink="true">/articles/22/Weatherill-PNAS</guid>
+        
+        
+        <category>papers</category>
+        
+      </item>
     
       <item>
         <title>London commuting</title>
@@ -156,24 +170,6 @@ Single-channel recording from pore-forming toxins (PFTs) provides a clear and di
         
         
         <category>news</category>
-        
-      </item>
-    
-      <item>
-        <title>Kharina Fenton</title>
-        <description>&lt;p&gt;&lt;label for=&quot;KharinaFenton&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;KharinaFenton&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/kharina_mugshot.jpg&quot; /&gt;&lt;br /&gt;Kharina Fenton&lt;/span&gt;
-Kharina joins the lab from Cardiff University after a placement in Australia studying 3D printable living electrodes. Her project will work to engineer a new class of artificial ion channels.
-&lt;!--more--&gt;
-Outside of science Kharina likes to travel, socialise and dance. She’s also currently learning how to code and speak Gujarati.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate>
-        <link>/articles/21/KharinaFenton</link>
-        <guid isPermaLink="true">/articles/21/KharinaFenton</guid>
-        
-        
-        <category>people</category>
-        
-        <category>current</category>
         
       </item>
     
