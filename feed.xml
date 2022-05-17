@@ -5,14 +5,16 @@
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 17 May 2022 10:45:39 +0000</pubDate>
-    <lastBuildDate>Tue, 17 May 2022 10:45:39 +0000</lastBuildDate>
+    <pubDate>Tue, 17 May 2022 10:48:18 +0000</pubDate>
+    <lastBuildDate>Tue, 17 May 2022 10:48:18 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>Spatiotemporal stop-and-go dynamics of the mitochondrial TOM core complex correlates with channel activity</title>
         <description>&lt;p&gt;&lt;label for=&quot;TOM&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;TOM&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/TOM.jpg&quot; /&gt;&lt;br /&gt;TOM diffusion is coupled to permeability.&lt;/span&gt;
-Here we show the correlation between lateral protein diffusion and channel activity of the general protein import pore of mitochondria (TOM-CC) in membranes resting on ultrathin hydrogel films. Using electrode-free optical recordings of ion flux, we find that TOM-CC switches reversibly between three states of ion permeability associated with protein diffusion. While freely diffusing TOM-CC molecules are predominantly in a high permeability state, non-mobile molecules are mostly in an intermediate or low permeability state. We explain this behavior by the mechanical binding of the two protruding Tom22 subunits to the hydrogel and a concomitant combinatorial opening and closing of the two β-barrel pores of TOM-CC. TOM-CC could thus represent a β-barrel membrane protein complex to exhibit membrane state-dependent mechanosensitive properties, mediated by its two Tom22 subunits.&lt;/p&gt;
+Here we show the correlation between lateral protein diffusion and channel activity of the general protein import pore of mitochondria (TOM-CC) in membranes resting on ultrathin hydrogel films. Using electrode-free optical recordings of ion flux, we find that TOM-CC switches reversibly between three states of ion permeability associated with protein diffusion.
+&lt;!-- more--&gt;
+While freely diffusing TOM-CC molecules are predominantly in a high permeability state, non-mobile molecules are mostly in an intermediate or low permeability state. We explain this behavior by the mechanical binding of the two protruding Tom22 subunits to the hydrogel and a concomitant combinatorial opening and closing of the two β-barrel pores of TOM-CC. TOM-CC could thus represent a β-barrel membrane protein complex to exhibit membrane state-dependent mechanosensitive properties, mediated by its two Tom22 subunits.&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 May 2022 00:00:00 +0000</pubDate>
         <link>/articles/22/Wang-CommsBiol</link>
