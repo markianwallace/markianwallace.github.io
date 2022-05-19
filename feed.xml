@@ -5,9 +5,27 @@
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 17 May 2022 10:48:18 +0000</pubDate>
-    <lastBuildDate>Tue, 17 May 2022 10:48:18 +0000</lastBuildDate>
+    <pubDate>Thu, 19 May 2022 11:32:55 +0000</pubDate>
+    <lastBuildDate>Thu, 19 May 2022 11:32:55 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Bake off</title>
+        <description>&lt;figure&gt;&lt;img src=&quot;/assets/img/coffee_morning_montage.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Group&amp;#8217;s turn for coffee morning at Britannia House.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;!--more--&gt;
+&lt;p&gt;What a talented bunch. Not bad at science either!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
+        <link>/articles/22/CoffeeMorning</link>
+        <guid isPermaLink="true">/articles/22/CoffeeMorning</guid>
+        
+        <category>fun</category>
+        
+        
+        <category>news</category>
+        
+      </item>
     
       <item>
         <title>Spatiotemporal stop-and-go dynamics of the mitochondrial TOM core complex correlates with channel activity</title>
@@ -157,20 +175,6 @@ After a KURF summer studentship failed to dissuade Zhongdao from working in the 
         <category>people</category>
         
         <category>current</category>
-        
-      </item>
-    
-      <item>
-        <title>Single-molecule imaging of pore-forming toxin dynamics in droplet interface bilayers</title>
-        <description>&lt;p&gt;&lt;label for=&quot;methods.gif&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;methods.gif&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/methods.gif&quot; /&gt;&lt;br /&gt;Our chapter in Methods 619.&lt;/span&gt;
-Single-channel recording from pore-forming toxins (PFTs) provides a clear and direct molecular readout of toxin action. However to complete any mechanistic understanding of PFT behavior, this functional kinetic readout must be linked to the underlying changes in toxin structure, binding, conformation, or stoichiometry. Here we review how single-molecule imaging methods might be used to further our understanding of PFTs, and provide detailed practical guidance on the use of droplet interface bilayers as a method capable of examining both single-molecule fluorescence and single-channel electrical signals from PFTs.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
-        <link>/articles/21/Parperis-methods</link>
-        <guid isPermaLink="true">/articles/21/Parperis-methods</guid>
-        
-        
-        <category>papers</category>
         
       </item>
     
