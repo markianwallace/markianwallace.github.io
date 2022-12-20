@@ -11,11 +11,11 @@
   /* min-height: 100vh;
   max-width: 40vw;
   width: 40vw; */
-  /* height: 100vh; */
-  /* margin: auto; */
-  /* margin: 10vh;
+/* height: 100vh; */
+/* margin: auto; */
+/* margin: 10vh;
   object-fit: contain; */
-/* } */ 
+/* } */
 
 .reveal section video {
   height: 50vh;
@@ -88,12 +88,10 @@
   top: 1px;
 } */
 
-.citationfixed  {
-  position: fixed !important;
-  margin-top: 4em;
-  bottom: -20px;
-  right: 0px;
-  z-index: 2;
+.reveal .citationfixed {
+  /* margin-top: 4em;
+margin-left: 4em; */
+  /* bottom: 20px;  */
   font-size: medium;
   text-align: right;
 }
@@ -126,10 +124,10 @@
 
 /* Below to give circular image boxes */
 .img-box {
-  position:absolute;
+  position: absolute;
   background-color: #EEEEEE;
-  background-position:center;
-  border-radius:100%;
+  background-position: center;
+  border-radius: 100%;
   /* max-width:200px; */
   /* overflow: hidden; */
   height: 300px;
@@ -137,8 +135,8 @@
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.img-box-text h3{
-  position:absolute;
+.img-box-text h3 {
+  position: absolute;
   color: #EEEEEE;
   /* padding: 6vw; */
   font-size: 100%;
@@ -160,15 +158,17 @@
 }
 
 .reveal[data-transition-speed="x-slow"] .slides section {
-	transition-duration: 4000ms;
+  transition-duration: 4000ms;
 }
 
 .referencelist {
-  margin-top: 0;
-  position: fixed !important;
-  /* margin-top: 4em; */
-  top: -1%;
-  max-width: 50%;
-  font-size: large; 
+  max-width: 45%;
+  font-size: 0.7em;
+}
 
+.quote {
+  font-style: italic;
+  font-size: 60%;
+  padding-left:20%;
+  padding-right: 20%;
 }

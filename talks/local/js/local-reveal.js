@@ -1,8 +1,10 @@
 Reveal.initialize({
   plugins: [ ],
-  //disableLayout: true,
-  width: 1280,
-  height: 720,
+  // disableLayout: true,
+  //width: 1920,
+  //height: 1080,
+  width: 1024,
+  height: 768,
   margin: 0.04,
   controls: false,
   progress: true,

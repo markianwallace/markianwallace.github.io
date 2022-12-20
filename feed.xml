@@ -5,9 +5,27 @@
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 25 Oct 2022 12:22:39 +0000</pubDate>
-    <lastBuildDate>Tue, 25 Oct 2022 12:22:39 +0000</lastBuildDate>
+    <pubDate>Tue, 20 Dec 2022 09:47:07 +0000</pubDate>
+    <lastBuildDate>Tue, 20 Dec 2022 09:47:07 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Mudchute Farm</title>
+        <description>&lt;figure&gt;&lt;img src=&quot;/assets/img/mudchute.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;A Christmas trip to Mudchute Farm.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;!--more--&gt;
+&lt;p&gt;Vetoed paintballing the group leader.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
+        <link>/articles/22/MudchuteFarm</link>
+        <guid isPermaLink="true">/articles/22/MudchuteFarm</guid>
+        
+        <category>fun</category>
+        
+        
+        <category>news</category>
+        
+      </item>
     
       <item>
         <title>Bake off</title>
@@ -159,22 +177,6 @@ Surprisingly, however, an X-ray structure solved from the lipidic cubic phase fo
         
         
         <category>papers</category>
-        
-      </item>
-    
-      <item>
-        <title>Zhongdao Li</title>
-        <description>&lt;p&gt;&lt;label for=&quot;ZhongDaoLi&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ZhongDaoLi&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/zhongdao_mugshot.jpg&quot; /&gt;&lt;br /&gt;Zhongdao Li&lt;/span&gt;
-After a KURF summer studentship failed to dissuade Zhongdao from working in the lab he joins us for a PhD working on new methods to link artificial cells and real cells.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-        <link>/articles/21/ZhongdaoLi</link>
-        <guid isPermaLink="true">/articles/21/ZhongdaoLi</guid>
-        
-        
-        <category>people</category>
-        
-        <category>current</category>
         
       </item>
     
