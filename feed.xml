@@ -5,8 +5,8 @@
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 20 Dec 2022 09:47:07 +0000</pubDate>
-    <lastBuildDate>Tue, 20 Dec 2022 09:47:07 +0000</lastBuildDate>
+    <pubDate>Tue, 03 Jan 2023 12:04:12 +0000</pubDate>
+    <lastBuildDate>Tue, 03 Jan 2023 12:04:12 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -24,6 +24,39 @@
         
         
         <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Yize Wu</title>
+        <description>&lt;p&gt;&lt;label for=&quot;YizeWu&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;YizeWu&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/yize_mugshot.jpg&quot; /&gt;&lt;br /&gt;Yize Wu&lt;/span&gt;
+joining us as a MRes student in Interdisciplinary Chemistry, Yize joins us to work on biohybrid nanopores.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+        <link>/articles/22/YizeWu</link>
+        <guid isPermaLink="true">/articles/22/YizeWu</guid>
+        
+        
+        <category>people</category>
+        
+        <category>current</category>
+        
+      </item>
+    
+      <item>
+        <title>Milan Singh</title>
+        <description>&lt;p&gt;&lt;label for=&quot;MilanSingh&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;MilanSingh&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/milan_mugshot.jpg&quot; /&gt;&lt;br /&gt;Milan Singh&lt;/span&gt;
+Milan joins us as a MSci student this year, working on artificial cell self-replication.
+&lt;!--more--&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+        <link>/articles/22/MilanSingh</link>
+        <guid isPermaLink="true">/articles/22/MilanSingh</guid>
+        
+        
+        <category>people</category>
+        
+        <category>current</category>
         
       </item>
     
@@ -144,39 +177,6 @@ Lucian joins the group as part of the KCL &lt;a href=&quot;https://www.kcl.ac.uk
         <category>people</category>
         
         <category>current</category>
-        
-      </item>
-    
-      <item>
-        <title>Guanzhong Zhai</title>
-        <description>&lt;p&gt;&lt;label for=&quot;YujieGuo&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;YujieGuo&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/guanzhong_mugshot.jpg&quot; /&gt;&lt;br /&gt;Guanzong Zhai&lt;/span&gt;
-Supported by the King’s-China Scholarship Council PhD Scholarship programme (K-CSC), Guanzhong Zhai joins the Wallace group working on on new methods for artificial cell fabrication.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 29 Sep 2021 00:00:00 +0000</pubDate>
-        <link>/articles/21/GuanzhongZhai</link>
-        <guid isPermaLink="true">/articles/21/GuanzhongZhai</guid>
-        
-        
-        <category>people</category>
-        
-        <category>current</category>
-        
-      </item>
-    
-      <item>
-        <title>Constructing ion channels from water-soluble alpha-helical barrels</title>
-        <description>&lt;p&gt;&lt;label for=&quot;peptidebarrels.jpg&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;peptidebarrels.jpg&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/peptidebarrels.jpg&quot; /&gt;&lt;br /&gt;Designer alpha-helical barrels.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;The design of peptides that assemble in membranes to form functional ion channels is challenging. Specifically, hydrophobic interactions must be designed between the peptides and at the peptide–lipid interfaces simultaneously. Here, we take a multi-step approach towards this problem. First, we use rational de novo design to generate water-soluble α-helical barrels with polar interiors, and confirm their structures using high-resolution X-ray crystallography. These α-helical barrels have water-filled lumens like those of transmembrane channels. Next, we modify the sequences to facilitate their insertion into lipid bilayers. Single-channel electrical recordings and fluorescent imaging of the peptides in membranes show monodisperse, cation-selective channels of unitary conductance.
-&lt;!--more--&gt;
-Surprisingly, however, an X-ray structure solved from the lipidic cubic phase for one peptide reveals an alternative state with tightly packed helices and a constricted channel. To reconcile these observations, we perform computational analyses to compare the properties of possible different states of the peptide.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
-        <link>/articles/21/Scott-NatChem</link>
-        <guid isPermaLink="true">/articles/21/Scott-NatChem</guid>
-        
-        
-        <category>papers</category>
         
       </item>
     
