@@ -3,11 +3,29 @@
   <channel>
     <title>Wallace Lab</title>
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 08 Mar 2023 14:38:56 +0000</pubDate>
-    <lastBuildDate>Wed, 08 Mar 2023 14:38:56 +0000</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 17 Jul 2023 08:55:44 +0000</pubDate>
+    <lastBuildDate>Mon, 17 Jul 2023 08:55:44 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>NanoSeries 2023 Poster Prize</title>
+        <description>&lt;figure&gt;&lt;img src=&quot;/assets/img/YujiePosterPrize.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Bringing home the bacon.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;!--more--&gt;
+&lt;p&gt;Congratulations to Yujie who won the poster prize at the Nanoseries 2023 meeting in Madrid.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+        <link>/articles/23/YujiePrize</link>
+        <guid isPermaLink="true">/articles/23/YujiePrize</guid>
+        
+        <category>fun</category>
+        
+        
+        <category>news</category>
+        
+      </item>
     
       <item>
         <title>Real-time single-molecule monitoring and control of nanoparticle formation</title>
@@ -15,8 +33,8 @@
 Methods capable of controlling synthesis at the level of an individual nanoparticle are a key step towards improved reproducibility and scalability in engineering complex nanomaterials. To address this, we combine spatially-patterned activation of the photoreductant sodium pyruvate with interferometric scattering microscopy to achieve fast, label-free monitoring and control of hundreds of gold nanoparticles in real-time. Individual particle growth kinetics are well-described by two-step nucleation autocatalysis model, but with a distribution of individual rate constants that changes with reaction conditions.&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/23/Guo_chemrxiv</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/23/Guo_chemrxiv</guid>
+        <link>/articles/23/Guo_chemrxiv</link>
+        <guid isPermaLink="true">/articles/23/Guo_chemrxiv</guid>
         
         
         <category>papers</category>
@@ -31,8 +49,8 @@ Methods capable of controlling synthesis at the level of an individual nanoparti
 &lt;p&gt;Vetoed paintballing the group leader.&lt;/p&gt;
 </description>
         <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/22/MudchuteFarm</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/22/MudchuteFarm</guid>
+        <link>/articles/22/MudchuteFarm</link>
+        <guid isPermaLink="true">/articles/22/MudchuteFarm</guid>
         
         <category>fun</category>
         
@@ -47,8 +65,8 @@ Methods capable of controlling synthesis at the level of an individual nanoparti
 joining us as a MRes student in Interdisciplinary Chemistry, Yize joins us to work on biohybrid nanopores.&lt;/p&gt;
 </description>
         <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/22/YizeWu</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/22/YizeWu</guid>
+        <link>/articles/22/YizeWu</link>
+        <guid isPermaLink="true">/articles/22/YizeWu</guid>
         
         
         <category>people</category>
@@ -64,8 +82,8 @@ Milan joins us as a MSci student this year, working on artificial cell self-repl
 &lt;!--more--&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/22/MilanSingh</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/22/MilanSingh</guid>
+        <link>/articles/22/MilanSingh</link>
+        <guid isPermaLink="true">/articles/22/MilanSingh</guid>
         
         
         <category>people</category>
@@ -82,8 +100,8 @@ Milan joins us as a MSci student this year, working on artificial cell self-repl
 &lt;p&gt;What a talented bunch. Not bad at science either!&lt;/p&gt;
 </description>
         <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/22/CoffeeMorning</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/22/CoffeeMorning</guid>
+        <link>/articles/22/CoffeeMorning</link>
+        <guid isPermaLink="true">/articles/22/CoffeeMorning</guid>
         
         <category>fun</category>
         
@@ -100,8 +118,8 @@ Here we show the correlation between lateral protein diffusion and channel activ
 While freely diffusing TOM-CC molecules are predominantly in a high permeability state, non-mobile molecules are mostly in an intermediate or low permeability state. We explain this behavior by the mechanical binding of the two protruding Tom22 subunits to the hydrogel and a concomitant combinatorial opening and closing of the two β-barrel pores of TOM-CC. TOM-CC could thus represent a β-barrel membrane protein complex to exhibit membrane state-dependent mechanosensitive properties, mediated by its two Tom22 subunits.&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 May 2022 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/22/Wang-CommsBiol</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/22/Wang-CommsBiol</guid>
+        <link>/articles/22/Wang-CommsBiol</link>
+        <guid isPermaLink="true">/articles/22/Wang-CommsBiol</guid>
         
         
         <category>papers</category>
@@ -114,8 +132,8 @@ While freely diffusing TOM-CC molecules are predominantly in a high permeability
 In comparison to globular proteins, the spontaneous folding and insertion of β-barrel membrane proteins is surprisingly slow, typically occurring on the order of minutes. Using single-molecule Förster Resonance Energy Transfer to report on the folding of fluorescently-labelled Outer Membrane Protein G we measured the real-time insertion of a β-barrel membrane protein from an unfolded state. Folding events were rare, and fast (&amp;lt;20 ms); occurring immediately upon arrival at the membrane. This combination of infrequent, but rare, folding resolves this apparent dichotomy between slow ensemble kinetics, and the typical timescales of biomolecular folding.&lt;/p&gt;
 </description>
         <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/22/Weatherill-PNAS</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/22/Weatherill-PNAS</guid>
+        <link>/articles/22/Weatherill-PNAS</link>
+        <guid isPermaLink="true">/articles/22/Weatherill-PNAS</guid>
         
         
         <category>papers</category>
@@ -131,8 +149,8 @@ In comparison to globular proteins, the spontaneous folding and insertion of β-
 &lt;img src=&quot;/assets/img/commute.jpg&quot; alt=&quot;NoReally&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/22/TerribleCommute</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/22/TerribleCommute</guid>
+        <link>/articles/22/TerribleCommute</link>
+        <guid isPermaLink="true">/articles/22/TerribleCommute</guid>
         
         <category>fun</category>
         
@@ -148,32 +166,13 @@ Raj  joins us as a Newton-Bhabha research internship as part of his PhD programm
 &lt;!--more--&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/21/RajPaul</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/21/RajPaul</guid>
+        <link>/articles/21/RajPaul</link>
+        <guid isPermaLink="true">/articles/21/RajPaul</guid>
         
         
         <category>people</category>
         
         <category>previous</category>
-        
-      </item>
-    
-      <item>
-        <title>Geocaching fun</title>
-        <description>&lt;figure&gt;&lt;img src=&quot;/assets/img/group/geocaching.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Geocaching around London was enjoyed by all.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;!--more--&gt;
-&lt;p&gt;No really, it was great!
-&lt;img src=&quot;/assets/img/group/geocaching2.jpg&quot; alt=&quot;NoReally&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/21/Geocaching</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/21/Geocaching</guid>
-        
-        <category>fun</category>
-        
-        
-        <category>news</category>
         
       </item>
     
