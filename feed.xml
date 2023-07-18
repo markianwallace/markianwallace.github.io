@@ -5,14 +5,14 @@
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 17 Jul 2023 14:11:25 +0000</pubDate>
-    <lastBuildDate>Mon, 17 Jul 2023 14:11:25 +0000</lastBuildDate>
+    <pubDate>Tue, 18 Jul 2023 11:49:02 +0000</pubDate>
+    <lastBuildDate>Tue, 18 Jul 2023 11:49:02 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>Real-time single-molecule monitoring and control of nanoparticle formation</title>
         <description>&lt;p&gt;&lt;label for=&quot;AuNP&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;AuNP&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/Guo_2023.gif&quot; /&gt;&lt;br /&gt;Monitoring AuNP growth.&lt;/span&gt;
-Methods capable of controlling synthesis at the level of an individual nanoparticle are a key step towards improved reproducibility and scalability in engineering complex nanomaterials. To address this, we combine spatially-patterned activation of the photoreductant sodium pyruvate with interferometric scattering microscopy to achieve fast, label-free monitoring and control of hundreds of gold nanoparticles in real-time. Individual particle growth kinetics are well-described by two-step nucleation autocatalysis model, but with a distribution of individual rate constants that changes with reaction conditions.&lt;/p&gt;
+Methods capable of controlling synthesis at the level of an individual nanoparticle are a key step towards improved reproducibility and scalability in engineering complex nanomaterials. To address this we combine spatially-patterned activation of the photoreductant sodium pyruvate with interferometric scattering microscopy to achieve fast, label-free monitoring and control of hundreds of gold nanoparticles in real-time. Individual particle growth kinetics are well-described by two-step nucleation autocatalysis model, but with a distribution of individual rate constants that changes with reaction conditions.&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
         <link>/articles/23/Guo_JACS</link>
