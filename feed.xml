@@ -5,8 +5,8 @@
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 18 Jul 2023 11:49:02 +0000</pubDate>
-    <lastBuildDate>Tue, 18 Jul 2023 11:49:02 +0000</lastBuildDate>
+    <pubDate>Tue, 26 Sep 2023 09:46:02 +0000</pubDate>
+    <lastBuildDate>Tue, 26 Sep 2023 09:46:02 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -42,16 +42,18 @@ Methods capable of controlling synthesis at the level of an individual nanoparti
       </item>
     
       <item>
-        <title>Real-time single-molecule monitoring and control of nanoparticle formation</title>
-        <description>&lt;p&gt;&lt;label for=&quot;AuNP&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;AuNP&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/Guo_2023.gif&quot; /&gt;&lt;br /&gt;Monitoring AuNP growth.&lt;/span&gt;
-Methods capable of controlling synthesis at the level of an individual nanoparticle are a key step towards improved reproducibility and scalability in engineering complex nanomaterials. To address this, we combine spatially-patterned activation of the photoreductant sodium pyruvate with interferometric scattering microscopy to achieve fast, label-free monitoring and control of hundreds of gold nanoparticles in real-time. Individual particle growth kinetics are well-described by two-step nucleation autocatalysis model, but with a distribution of individual rate constants that changes with reaction conditions.&lt;/p&gt;
+        <title>Pantelitsa Dimitriou</title>
+        <description>&lt;p&gt;&lt;label for=&quot;PanDimitriou&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;PanDimitriou&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/pan_mugshot.jpg&quot; /&gt;&lt;br /&gt;Pan Dimitriou&lt;/span&gt;
+Pantelitsa joined the Wallace Group in March 2023 as a PDRA, after completing her PhD in Engineering. Her research interests lie in 3D printing, microfluidics and cell membrane mimics. During her time in the Wallace group, she will explore the combination of droplet-microfluidics, multiple emulsions and hydrogels in the formation of artificial bacterial envelopes.&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
-        <link>/articles/23/Guo_chemrxiv</link>
-        <guid isPermaLink="true">/articles/23/Guo_chemrxiv</guid>
+        <link>/articles/23/PantelitsaDimitriou</link>
+        <guid isPermaLink="true">/articles/23/PantelitsaDimitriou</guid>
         
         
-        <category>papers</category>
+        <category>people</category>
+        
+        <category>current</category>
         
       </item>
     
