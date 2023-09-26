@@ -5,8 +5,8 @@
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 26 Sep 2023 09:46:02 +0000</pubDate>
-    <lastBuildDate>Tue, 26 Sep 2023 09:46:02 +0000</lastBuildDate>
+    <pubDate>Tue, 26 Sep 2023 10:30:32 +0000</pubDate>
+    <lastBuildDate>Tue, 26 Sep 2023 10:30:32 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -49,6 +49,22 @@ Pantelitsa joined the Wallace Group in March 2023 as a PDRA, after completing he
         <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
         <link>/articles/23/PantelitsaDimitriou</link>
         <guid isPermaLink="true">/articles/23/PantelitsaDimitriou</guid>
+        
+        
+        <category>people</category>
+        
+        <category>current</category>
+        
+      </item>
+    
+      <item>
+        <title>Christian Bortolini</title>
+        <description>&lt;p&gt;&lt;label for=&quot;ChristianBortolini&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ChristianBortolini&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/christian_mugshot.jpg&quot; /&gt;&lt;br /&gt;Christian Bortolini&lt;/span&gt;
+Christian joined the Wallace group as a PDRA to work on the membrane attack complex. The main objective of his project is to understand how complement activation kills pathogenic bacteria.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+        <link>/articles/23/ChristianBortolini</link>
+        <guid isPermaLink="true">/articles/23/ChristianBortolini</guid>
         
         
         <category>people</category>
@@ -153,25 +169,6 @@ In comparison to globular proteins, the spontaneous folding and insertion of β-
         
         
         <category>papers</category>
-        
-      </item>
-    
-      <item>
-        <title>London commuting</title>
-        <description>&lt;figure&gt;&lt;img src=&quot;/assets/img/commute.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Terrible commute.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;!--more--&gt;
-&lt;p&gt;Not always great, but sometimes awesome.
-&lt;img src=&quot;/assets/img/commute.jpg&quot; alt=&quot;NoReally&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
-        <link>/articles/22/TerribleCommute</link>
-        <guid isPermaLink="true">/articles/22/TerribleCommute</guid>
-        
-        <category>fun</category>
-        
-        
-        <category>news</category>
         
       </item>
     
