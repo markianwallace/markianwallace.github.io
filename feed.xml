@@ -3,10 +3,10 @@
   <channel>
     <title>Wallace Lab</title>
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Jan 2024 12:43:49 +0000</pubDate>
-    <lastBuildDate>Fri, 19 Jan 2024 12:43:49 +0000</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 19 Jan 2024 13:07:06 +0000</pubDate>
+    <lastBuildDate>Fri, 19 Jan 2024 13:07:06 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -15,8 +15,8 @@
 The living crystallization-driven self-assembly (CDSA) of semicrystalline block copoly- mers is a powerful method for the bottom-up construction of uniform polymer mi- crostructures with complex hierarchies. Improving our ability to engineer such complex particles demands a better understanding of precisely how to control the self-assembly process. Here, we apply interferometric scattering microscopy (iSCAT) to deliver real- time observation of individual poly(ε-caprolactone)-based platelet growth. This label-free method enables us to map the role of key reaction parameters on platelet growth rate, size, and morphology. Furthermore, iSCAT provides a contrast mechanism for studying multi-layer platelets, offering new insights into the distribution of polymer compositions within a single platelet.&lt;/p&gt;
 </description>
         <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/24/Guo_chemrxiv</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/24/Guo_chemrxiv</guid>
+        <link>/articles/24/Guo_chemrxiv</link>
+        <guid isPermaLink="true">/articles/24/Guo_chemrxiv</guid>
         
         
         <category>papers</category>
@@ -30,8 +30,8 @@ The living crystallization-driven self-assembly (CDSA) of semicrystalline block 
 
 </description>
         <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/23/Christmas</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/23/Christmas</guid>
+        <link>/articles/23/Christmas</link>
+        <guid isPermaLink="true">/articles/23/Christmas</guid>
         
         <category>fun</category>
         
@@ -47,8 +47,8 @@ Henry joins the group following a BSc in Biology at the University of Nottingham
 &lt;!--more--&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/23/HenryChippindale</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/23/HenryChippindale</guid>
+        <link>/articles/23/HenryChippindale</link>
+        <guid isPermaLink="true">/articles/23/HenryChippindale</guid>
         
         
         <category>people</category>
@@ -63,8 +63,8 @@ Henry joins the group following a BSc in Biology at the University of Nottingham
 Methods capable of controlling synthesis at the level of an individual nanoparticle are a key step towards improved reproducibility and scalability in engineering complex nanomaterials. To address this we combine spatially-patterned activation of the photoreductant sodium pyruvate with interferometric scattering microscopy to achieve fast, label-free monitoring and control of hundreds of gold nanoparticles in real-time. Individual particle growth kinetics are well-described by two-step nucleation autocatalysis model, but with a distribution of individual rate constants that changes with reaction conditions.&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/23/Guo_JACS</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/23/Guo_JACS</guid>
+        <link>/articles/23/Guo_JACS</link>
+        <guid isPermaLink="true">/articles/23/Guo_JACS</guid>
         
         
         <category>papers</category>
@@ -79,8 +79,8 @@ Methods capable of controlling synthesis at the level of an individual nanoparti
 &lt;p&gt;Congratulations to Yujie who won the poster prize at the Nanoseries 2023 meeting in Madrid.&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/23/YujiePrize</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/23/YujiePrize</guid>
+        <link>/articles/23/YujiePrize</link>
+        <guid isPermaLink="true">/articles/23/YujiePrize</guid>
         
         <category>fun</category>
         
@@ -95,8 +95,8 @@ Methods capable of controlling synthesis at the level of an individual nanoparti
 Pantelitsa joined the Wallace Group in March 2023 as a PDRA, after completing her PhD in Engineering. Her research interests lie in 3D printing, microfluidics and cell membrane mimics. During her time in the Wallace group, she will explore the combination of droplet-microfluidics, multiple emulsions and hydrogels in the formation of artificial bacterial envelopes.&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/23/PantelitsaDimitriou</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/23/PantelitsaDimitriou</guid>
+        <link>/articles/23/PantelitsaDimitriou</link>
+        <guid isPermaLink="true">/articles/23/PantelitsaDimitriou</guid>
         
         
         <category>people</category>
@@ -111,8 +111,8 @@ Pantelitsa joined the Wallace Group in March 2023 as a PDRA, after completing he
 Christian joined the Wallace group as a PDRA to work on the membrane attack complex. The main objective of his project is to understand how complement activation kills pathogenic bacteria.&lt;/p&gt;
 </description>
         <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/23/ChristianBortolini</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/23/ChristianBortolini</guid>
+        <link>/articles/23/ChristianBortolini</link>
+        <guid isPermaLink="true">/articles/23/ChristianBortolini</guid>
         
         
         <category>people</category>
@@ -129,8 +129,8 @@ Christian joined the Wallace group as a PDRA to work on the membrane attack comp
 &lt;p&gt;Vetoed paintballing the group leader.&lt;/p&gt;
 </description>
         <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/22/MudchuteFarm</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/22/MudchuteFarm</guid>
+        <link>/articles/22/MudchuteFarm</link>
+        <guid isPermaLink="true">/articles/22/MudchuteFarm</guid>
         
         <category>fun</category>
         
@@ -145,8 +145,8 @@ Christian joined the Wallace group as a PDRA to work on the membrane attack comp
 joining us as a MRes student in Interdisciplinary Chemistry, Yize joins us to work on biohybrid nanopores.&lt;/p&gt;
 </description>
         <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/22/YizeWu</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/22/YizeWu</guid>
+        <link>/articles/22/YizeWu</link>
+        <guid isPermaLink="true">/articles/22/YizeWu</guid>
         
         
         <category>people</category>
@@ -162,8 +162,8 @@ Milan joins us as a MSci student this year, working on artificial cell self-repl
 &lt;!--more--&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/22/MilanSingh</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/22/MilanSingh</guid>
+        <link>/articles/22/MilanSingh</link>
+        <guid isPermaLink="true">/articles/22/MilanSingh</guid>
         
         
         <category>people</category>
