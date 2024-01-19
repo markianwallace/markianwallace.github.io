@@ -5,8 +5,8 @@
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Jan 2024 13:48:47 +0000</pubDate>
-    <lastBuildDate>Fri, 19 Jan 2024 13:48:47 +0000</lastBuildDate>
+    <pubDate>Fri, 19 Jan 2024 13:51:48 +0000</pubDate>
+    <lastBuildDate>Fri, 19 Jan 2024 13:51:48 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -42,7 +42,7 @@ The living crystallization-driven self-assembly (CDSA) of semicrystalline block 
     
       <item>
         <title>Henry Chippindale</title>
-        <description>&lt;p&gt;&lt;label for=&quot;HenryChippindale&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;HenryChippindale&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/Henry_mugshot.jpg&quot; /&gt;&lt;br /&gt;Henry Chippindale&lt;/span&gt;
+        <description>&lt;p&gt;&lt;label for=&quot;HenryChippindale&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;HenryChippindale&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/henry_mugshot.jpg&quot; /&gt;&lt;br /&gt;Henry Chippindale&lt;/span&gt;
 Henry joins the group following a BSc in Biology at the University of Nottingham and a Systems and Synthetic Biology MRes from Imperial. Henry is working on building de novo artifical synapses.
 &lt;!--more--&gt;&lt;/p&gt;
 </description>
