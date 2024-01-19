@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Adelle';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Adelle'), url('./Adelle_Reg.woff') format('woff');
+}
+@font-face {
+    font-family: 'Adelle';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Adelle'), url('./Adelle_Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Adelle';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Adelle'), url('./Adelle_LightItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Adelle';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Adelle'), url('./Adelle_light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Adelle';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Adelle'), url('./Adelle_SemiBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Adelle';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Adelle'), url('./Adelle_Semibold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Adelle';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Adelle'), url('./Adelle_Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Adelle';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Adelle'), url('./Adelle_BoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Adelle';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Adelle'), url('./Adelle_ExtraBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Adelle';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Adelle'), url('./Adelle_ExtraBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Adelle';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Adelle'), url('./Adelle_Heavy.woff') format('woff');
+}
+@font-face {
+    font-family: 'Adelle';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Adelle'), url('./Adelle_HeavyItalic.woff') format('woff');
+}
+
+/* original below */
+/* @font-face {
+    font-family: 'Adelle';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Adelle'), url('https://fonts.cdnfonts.com/s/16088/Adelle_Reg.woff') format('woff');
+}
+@font-face {
+    font-family: 'Adelle';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Adelle'), url('https://fonts.cdnfonts.com/s/16088/Adelle_Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Adelle';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Adelle'), url('https://fonts.cdnfonts.com/s/16088/Adelle_LightItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Adelle';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Adelle'), url('https://fonts.cdnfonts.com/s/16088/Adelle_light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Adelle';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Adelle'), url('https://fonts.cdnfonts.com/s/16088/Adelle_SemiBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Adelle';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Adelle'), url('https://fonts.cdnfonts.com/s/16088/Adelle_Semibold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Adelle';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Adelle'), url('https://fonts.cdnfonts.com/s/16088/Adelle_Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Adelle';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Adelle'), url('https://fonts.cdnfonts.com/s/16088/Adelle_BoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Adelle';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Adelle'), url('https://fonts.cdnfonts.com/s/16088/Adelle_ExtraBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Adelle';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Adelle'), url('https://fonts.cdnfonts.com/s/16088/Adelle_ExtraBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Adelle';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Adelle'), url('https://fonts.cdnfonts.com/s/16088/Adelle_Heavy.woff') format('woff');
+}
+@font-face {
+    font-family: 'Adelle';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Adelle'), url('https://fonts.cdnfonts.com/s/16088/Adelle_HeavyItalic.woff') format('woff');
+} */

@@ -1,0 +1,89 @@
+/* background   */
+
+.backgrounds {
+  background: rgb(40, 40, 36);
+  background: linear-gradient(90deg, rgba(40, 40, 36, 1) 0%, rgba(24, 24, 22, 1) 50%, rgba(40, 40, 36, 1) 100%);
+  /* background: linear-gradient(180deg, rgb(0, 0, 0) 11.4%, rgb(31, 30, 30) 70.2%); */
+  /* -webkit-filter: blur(5px);
+  -moz-filter: blur(50px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px); */
+}
+
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: 0 0 20px 0;
+  color: #eee8d5;
+  font-family: "Adelle";
+  line-height: 0.9em;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  text-shadow: none;
+}
+
+.reveal h1 {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.reveal p {
+  font-family: "Adelle";
+  font-weight: 300;
+  /* font-size: 2em; */
+}
+
+
+.reveal .footer {
+  bottom: 0;
+  left: 20px;
+  z-index: 3;
+  position: fixed;
+}
+
+.reveal .footer img {
+  width: 7vw;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.invert {
+  filter: invert(70%);
+  /* sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%); */
+  /* To filter to a specific color, use the following Codepen (click here to open the codepen) to convert a hexadecimal color code to a CSS filter: */
+}
+
+.reveal section img {
+  border: 0;
+  box-shadow: none;
+}
+
+.reveal section img.plain {
+  border: 0;
+  box-shadow: none;
+}
+
+.reveal a:hover img {
+  border: 0;
+  box-shadow: none;
+}
+
+.reveal .footer img {
+  border: 0;
+  box-shadow: none;
+}
+
+.step2down,
+.step2up {
+  opacity: 0.1;
+}
+
+.step1down,
+.step1up {
+  opacity: 0.3;
+}

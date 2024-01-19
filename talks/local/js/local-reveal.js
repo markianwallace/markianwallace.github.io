@@ -1,5 +1,5 @@
 Reveal.initialize({
-  plugins: [ ],
+  plugins: [RevealMath.KaTeX ],
   // disableLayout: true,
   //width: 1920,
   //height: 1080,
