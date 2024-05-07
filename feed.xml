@@ -5,9 +5,26 @@
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Jan 2024 13:51:48 +0000</pubDate>
-    <lastBuildDate>Fri, 19 Jan 2024 13:51:48 +0000</lastBuildDate>
+    <pubDate>Tue, 07 May 2024 11:51:50 +0000</pubDate>
+    <lastBuildDate>Tue, 07 May 2024 11:51:50 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Science Away Day on the Strand</title>
+        <description>&lt;figure&gt;&lt;img src=&quot;/assets/img/group/awayday_2024.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Some of the lab up on the terrace of Bush House grabbing lunch on our internal &amp;#8216;Science Day&amp;#8217;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;!--more--&gt;
+
+</description>
+        <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+        <link>/articles/24/AwayDay</link>
+        <guid isPermaLink="true">/articles/24/AwayDay</guid>
+        
+        <category>fun</category>
+        
+        
+        <category>news</category>
+        
+      </item>
     
       <item>
         <title>Real-time label-free imaging of living crystallization-driven self-assembly</title>
@@ -43,7 +60,9 @@ The living crystallization-driven self-assembly (CDSA) of semicrystalline block 
       <item>
         <title>Henry Chippindale</title>
         <description>&lt;p&gt;&lt;label for=&quot;HenryChippindale&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;HenryChippindale&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/henry_mugshot.jpg&quot; /&gt;&lt;br /&gt;Henry Chippindale&lt;/span&gt;
-Henry joins the group following a BSc in Biology at the University of Nottingham and a Systems and Synthetic Biology MRes from Imperial. Henry is working on building de novo artifical synapses.
+Henry joins the group following a BSc in Biology at the University of Nottingham and a Systems and Synthetic Biology MRes from Imperial.&lt;/p&gt;
+
+&lt;p&gt;Henry is working on building de novo artifical synapses linking real cells and artificial cells.
 &lt;!--more--&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
@@ -152,23 +171,6 @@ joining us as a MRes student in Interdisciplinary Chemistry, Yize joins us to wo
         <category>people</category>
         
         <category>current</category>
-        
-      </item>
-    
-      <item>
-        <title>Milan Singh</title>
-        <description>&lt;p&gt;&lt;label for=&quot;MilanSingh&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;MilanSingh&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/milan_mugshot.jpg&quot; /&gt;&lt;br /&gt;Milan Singh&lt;/span&gt;
-Milan joins us as a MSci student this year, working on artificial cell self-replication.
-&lt;!--more--&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-        <link>/articles/22/MilanSingh</link>
-        <guid isPermaLink="true">/articles/22/MilanSingh</guid>
-        
-        
-        <category>people</category>
-        
-        <category>previous</category>
         
       </item>
     
