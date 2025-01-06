@@ -5,8 +5,8 @@
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 06 Jan 2025 10:09:46 +0000</pubDate>
-    <lastBuildDate>Mon, 06 Jan 2025 10:09:46 +0000</lastBuildDate>
+    <pubDate>Mon, 06 Jan 2025 10:19:52 +0000</pubDate>
+    <lastBuildDate>Mon, 06 Jan 2025 10:19:52 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -35,6 +35,21 @@ Despite advances in peptide and protein design, the rational design of membrane-
         <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
         <link>/articles/24/Nitsu_biorxiv</link>
         <guid isPermaLink="true">/articles/24/Nitsu_biorxiv</guid>
+        
+        
+        <category>papers</category>
+        
+      </item>
+    
+      <item>
+        <title>Spatial light modulation for interferometric scattering microscopy</title>
+        <description>&lt;p&gt;&lt;label for=&quot;CDSA&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;CDSA&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/Walter_SLM.jpg&quot; /&gt;&lt;br /&gt;Spatial light modulation for interferometric scattering microscopy
+.&lt;/span&gt;
+Interferometric scattering (iSCAT) microscopy enables high-speed and label-free detection of individual molecules and small nanoparticles. Here we apply point spread function engineering to provide adaptive control of iSCAT images using spatial light modulation. With this approach, we demonstrate improved dynamic spatial filtering, real-time background subtraction, focus control, and signal modulation based on sample orientation.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
+        <link>/articles/24/Walter</link>
+        <guid isPermaLink="true">/articles/24/Walter</guid>
         
         
         <category>papers</category>
@@ -153,22 +168,6 @@ Pantelitsa joined the Wallace Group in March 2023 as a PDRA, after completing he
         <category>people</category>
         
         <category>current</category>
-        
-      </item>
-    
-      <item>
-        <title>Christian Bortolini</title>
-        <description>&lt;p&gt;&lt;label for=&quot;ChristianBortolini&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;ChristianBortolini&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/christian_mugshot.jpg&quot; /&gt;&lt;br /&gt;Christian Bortolini&lt;/span&gt;
-Christian joined the Wallace group as a PDRA to work on the membrane attack complex. The main objective of his project is to understand how complement activation kills pathogenic bacteria.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-        <link>/articles/23/ChristianBortolini</link>
-        <guid isPermaLink="true">/articles/23/ChristianBortolini</guid>
-        
-        
-        <category>people</category>
-        
-        <category>previous</category>
         
       </item>
     
