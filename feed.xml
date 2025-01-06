@@ -5,8 +5,8 @@
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 06 Jan 2025 09:40:14 +0000</pubDate>
-    <lastBuildDate>Mon, 06 Jan 2025 09:40:14 +0000</lastBuildDate>
+    <pubDate>Mon, 06 Jan 2025 09:57:31 +0000</pubDate>
+    <lastBuildDate>Mon, 06 Jan 2025 09:57:31 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -23,6 +23,22 @@
         
         
         <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>De novo design of α-helical peptide channels with designer stoichiometry</title>
+        <description>&lt;p&gt;&lt;label for=&quot;CDSA&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;CDSA&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/Nitsu_2024.jpg&quot; /&gt;&lt;br /&gt;α-helical peptide channels.&lt;/span&gt;
+Despite advances in peptide and protein design, the rational design of membrane-spanning peptides that form conducting channels remains challenging due to our imperfect understanding of the sequence-to-structure relationships that drive membrane insertion, assembly, and conductance. Here, we describe the design and computational and experimental characterization of a series of coiled coil-based peptides that form transmembrane α-helical barrels.&lt;/p&gt;
+
+&lt;p&gt;Through a combination of rational and computational design, we obtain barrels with 5 to 7 helices, as characterized in detergent micelles. In lipid bilayers, these peptide assemblies exhibit two conductance states with relative populations dependent on the applied potential: (i) a low-conductance states that correlate with variations in the modeled coiled-coil barrel geometries, indicating stable transmembrane α-helical barrels; and (ii) high-conductance states in which single pores change size in discrete steps. Notably, the high-conductance states are similar for all peptides in contrast to the low-conductance states. This indicates the formation of large, dynamic pores through the recruitment and expulsion of peptides, as observed in natural barrel-stave peptide pores. These findings establish rational routes to design and tune functional membrane-spanning peptide channels with specific conductance and geometry.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+        <link>/articles/24/Nitsu_biorxiv</link>
+        <guid isPermaLink="true">/articles/24/Nitsu_biorxiv</guid>
+        
+        
+        <category>papers</category>
         
       </item>
     
@@ -154,24 +170,6 @@ Christian joined the Wallace group as a PDRA to work on the membrane attack comp
         <category>people</category>
         
         <category>previous</category>
-        
-      </item>
-    
-      <item>
-        <title>Mudchute Farm</title>
-        <description>&lt;figure&gt;&lt;img src=&quot;/assets/img/mudchute.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;A Christmas trip to Mudchute Farm.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;!--more--&gt;
-&lt;p&gt;Vetoed paintballing the group leader.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
-        <link>/articles/22/MudchuteFarm</link>
-        <guid isPermaLink="true">/articles/22/MudchuteFarm</guid>
-        
-        <category>fun</category>
-        
-        
-        <category>news</category>
         
       </item>
     
