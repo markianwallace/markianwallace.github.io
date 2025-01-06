@@ -5,9 +5,26 @@
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 May 2024 11:51:50 +0000</pubDate>
-    <lastBuildDate>Tue, 07 May 2024 11:51:50 +0000</lastBuildDate>
+    <pubDate>Mon, 06 Jan 2025 09:00:19 +0000</pubDate>
+    <lastBuildDate>Mon, 06 Jan 2025 09:00:19 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Christmas Dinner in Covent Garden</title>
+        <description>&lt;figure&gt;&lt;img src=&quot;/assets/img/group/Christmas_2024.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Hotpot at Leicester Square and an early Christmas present from the group (I think&amp;#8230;)&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;!--more--&gt;
+
+</description>
+        <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+        <link>/articles/24/Christmas</link>
+        <guid isPermaLink="true">/articles/24/Christmas</guid>
+        
+        <category>fun</category>
+        
+        
+        <category>news</category>
+        
+      </item>
     
       <item>
         <title>Science Away Day on the Strand</title>
@@ -155,22 +172,6 @@ Christian joined the Wallace group as a PDRA to work on the membrane attack comp
         
         
         <category>news</category>
-        
-      </item>
-    
-      <item>
-        <title>Yize Wu</title>
-        <description>&lt;p&gt;&lt;label for=&quot;YizeWu&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;YizeWu&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/yize_mugshot.jpg&quot; /&gt;&lt;br /&gt;Yize Wu&lt;/span&gt;
-joining us as a MRes student in Interdisciplinary Chemistry, Yize joins us to work on biohybrid nanopores.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
-        <link>/articles/22/YizeWu</link>
-        <guid isPermaLink="true">/articles/22/YizeWu</guid>
-        
-        
-        <category>people</category>
-        
-        <category>current</category>
         
       </item>
     
