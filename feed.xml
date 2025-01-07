@@ -5,8 +5,8 @@
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 06 Jan 2025 15:56:56 +0000</pubDate>
-    <lastBuildDate>Mon, 06 Jan 2025 15:56:56 +0000</lastBuildDate>
+    <pubDate>Tue, 07 Jan 2025 09:03:01 +0000</pubDate>
+    <lastBuildDate>Tue, 07 Jan 2025 09:03:01 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -56,6 +56,24 @@ Despite advances in peptide and protein design, the rational design of membrane-
         
         
         <category>papers</category>
+        
+      </item>
+    
+      <item>
+        <title>Adelina Krusteva</title>
+        <description>&lt;p&gt;&lt;label for=&quot;Adelina Krusteva&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;Adelina Krusteva&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/adelina_mugshot.jpg&quot; /&gt;&lt;br /&gt;Adelina Krusteva&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Adelina’s journey began during an industrial placement year at Ipsen, where she gained hands-on experience in protein engineering working with Botulinum toxins. After completing her BSc at King’s, she joined the Wallace lab to continue work on the translocation mechanism of BoNT. Outside the lab, she is a painter and a practitioner of BJJ and Muay Thai—pursuing these passions when inspiration and energy align.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
+        <link>/articles/24/AdelinaKrusteva</link>
+        <guid isPermaLink="true">/articles/24/AdelinaKrusteva</guid>
+        
+        
+        <category>people</category>
+        
+        <category>current</category>
         
       </item>
     
@@ -152,24 +170,6 @@ Methods capable of controlling synthesis at the level of an individual nanoparti
         
         
         <category>papers</category>
-        
-      </item>
-    
-      <item>
-        <title>NanoSeries 2023 Poster Prize</title>
-        <description>&lt;figure&gt;&lt;img src=&quot;/assets/img/YujiePosterPrize.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Bringing home the bacon.&lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;!--more--&gt;
-&lt;p&gt;Congratulations to Yujie who won the poster prize at the Nanoseries 2023 meeting in Madrid.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-        <link>/articles/23/YujiePrize</link>
-        <guid isPermaLink="true">/articles/23/YujiePrize</guid>
-        
-        <category>fun</category>
-        
-        
-        <category>news</category>
         
       </item>
     
