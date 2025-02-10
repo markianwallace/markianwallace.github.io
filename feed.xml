@@ -5,9 +5,25 @@
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Jan 2025 09:03:01 +0000</pubDate>
-    <lastBuildDate>Tue, 07 Jan 2025 09:03:01 +0000</lastBuildDate>
-    <generator>Jekyll v4.2.2</generator>
+    <pubDate>Mon, 10 Feb 2025 09:47:39 +0000</pubDate>
+    <lastBuildDate>Mon, 10 Feb 2025 09:47:39 +0000</lastBuildDate>
+    <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>Ion Transport and Membrane Channel Formation Using a Peptidomimetic in Droplet Interface Bilayers</title>
+        <description>&lt;p&gt;&lt;label for=&quot;CDSA&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;CDSA&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/TBP2.jpg&quot; /&gt;&lt;br /&gt;Peptidomimetic channels.&lt;/span&gt;
+Herein, we present a synthetic peptidomimetic, TBP2, which forms artificial membrane channels within Droplet Interface Bilayers (DIBs). Through real-time electrophysiology, TIRF microscopy, and single-channel recordings, we demonstrate the ability of TBP2 to mediate high-conductance transport of Na⁺ and K⁺ across the DIBs, highlighting its potential for
+nanobiotechnology applications in cell-free systems.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+        <link>/articles/25/Paul_chemcomm</link>
+        <guid isPermaLink="true">/articles/25/Paul_chemcomm</guid>
+        
+        
+        <category>papers</category>
+        
+      </item>
     
       <item>
         <title>Siyuan Zhou</title>
@@ -156,20 +172,6 @@ Henry joins the group following a BSc in Biology at the University of Nottingham
         <category>people</category>
         
         <category>current</category>
-        
-      </item>
-    
-      <item>
-        <title>Real-time single-molecule monitoring and control of nanoparticle formation</title>
-        <description>&lt;p&gt;&lt;label for=&quot;AuNP&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;AuNP&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/Guo_2023.gif&quot; /&gt;&lt;br /&gt;Monitoring AuNP growth.&lt;/span&gt;
-Methods capable of controlling synthesis at the level of an individual nanoparticle are a key step towards improved reproducibility and scalability in engineering complex nanomaterials. To address this we combine spatially-patterned activation of the photoreductant sodium pyruvate with interferometric scattering microscopy to achieve fast, label-free monitoring and control of hundreds of gold nanoparticles in real-time. Individual particle growth kinetics are well-described by two-step nucleation autocatalysis model, but with a distribution of individual rate constants that changes with reaction conditions.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
-        <link>/articles/23/Guo_JACS</link>
-        <guid isPermaLink="true">/articles/23/Guo_JACS</guid>
-        
-        
-        <category>papers</category>
         
       </item>
     
