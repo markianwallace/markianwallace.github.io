@@ -5,9 +5,23 @@
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Feb 2025 09:47:39 +0000</pubDate>
-    <lastBuildDate>Mon, 10 Feb 2025 09:47:39 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Mar 2025 11:59:36 +0000</pubDate>
+    <lastBuildDate>Thu, 20 Mar 2025 11:59:36 +0000</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>Real-time label-free imaging of living crystallization-driven self-assembly</title>
+        <description>&lt;p&gt;&lt;label for=&quot;CDSA&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;CDSA&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/Guo_2024.gif&quot; /&gt;&lt;br /&gt;Real-time label-free imaging of living crystallization-driven self-assembly.&lt;/span&gt;
+Our latest work now published in hashtag#NatureCommunications. This is the last of our pandemic papers, so no membrane biophysics! Applying label-free microscopy to watch polymer self-assembly in real-time. This lets us map directly how reaction parameters affect the composition and growth of individual 2D polymer microplatelets. A fantastic collaboration with Rachel O’Reilly at the University of Birmingham. Congratulations go to Yujie GUO, PhD for another fantastic bit of science.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+        <link>/articles/25/Guo_CDSA</link>
+        <guid isPermaLink="true">/articles/25/Guo_CDSA</guid>
+        
+        
+        <category>papers</category>
+        
+      </item>
     
       <item>
         <title>Ion Transport and Membrane Channel Formation Using a Peptidomimetic in Droplet Interface Bilayers</title>
@@ -131,8 +145,8 @@ Interferometric scattering (iSCAT) microscopy enables high-speed and label-free 
 The living crystallization-driven self-assembly (CDSA) of semicrystalline block copoly- mers is a powerful method for the bottom-up construction of uniform polymer mi- crostructures with complex hierarchies. Improving our ability to engineer such complex particles demands a better understanding of precisely how to control the self-assembly process. Here, we apply interferometric scattering microscopy (iSCAT) to deliver real- time observation of individual poly(ε-caprolactone)-based platelet growth. This label-free method enables us to map the role of key reaction parameters on platelet growth rate, size, and morphology. Furthermore, iSCAT provides a contrast mechanism for studying multi-layer platelets, offering new insights into the distribution of polymer compositions within a single platelet.&lt;/p&gt;
 </description>
         <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
-        <link>/articles/24/Guo_chemrxiv</link>
-        <guid isPermaLink="true">/articles/24/Guo_chemrxiv</guid>
+        <link>/articles/24/Guo_chemrxiv-2</link>
+        <guid isPermaLink="true">/articles/24/Guo_chemrxiv-2</guid>
         
         
         <category>papers</category>
@@ -153,25 +167,6 @@ The living crystallization-driven self-assembly (CDSA) of semicrystalline block 
         
         
         <category>news</category>
-        
-      </item>
-    
-      <item>
-        <title>Henry Chippindale</title>
-        <description>&lt;p&gt;&lt;label for=&quot;HenryChippindale&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;HenryChippindale&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/henry_mugshot.jpg&quot; /&gt;&lt;br /&gt;Henry Chippindale&lt;/span&gt;
-Henry joins the group following a BSc in Biology at the University of Nottingham and a Systems and Synthetic Biology MRes from Imperial.&lt;/p&gt;
-
-&lt;p&gt;Henry is working on building de novo artifical synapses linking real cells and artificial cells.
-&lt;!--more--&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-        <link>/articles/23/HenryChippindale</link>
-        <guid isPermaLink="true">/articles/23/HenryChippindale</guid>
-        
-        
-        <category>people</category>
-        
-        <category>current</category>
         
       </item>
     
