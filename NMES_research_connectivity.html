@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NMES Faculty Network Visualization</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+    }
+    
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .viz-container {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      background-color: #ffffff;
+    }
+    
+    /* For visibility */
+    svg text {
+      font-weight: 400;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+
+    /* Node text styles */
+    .node-label {
+      font-size: 15px;
+      text-anchor: middle;
+      pointer-events: none;
+      line-height: 1.5;
+    }
+    
+    .node-label-dept {
+      font-size: 15px;
+      font-weight: bold;
+      fill: white;
+      text-anchor: middle;
+      pointer-events: none;
+    }
+    
+    .node-label-faculty {
+      font-size: 18px;
+      font-weight: bold;
+      fill: white;
+      text-anchor: middle;
+      pointer-events: none;
+    }
+    
+    /* Export buttons */
+    .controls {
+      display: flex;
+      justify-content: center;
+      margin-top: 15px;
+      gap: 10px;
+    }
+    
+    button {
+      padding: 8px 15px;
+      background-color: #4B9CD3;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    
+    button:hover {
+      background-color: #3A7CA5;
+    }
+    
+    /* Legend styling */
+    .legend {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    
+    .legend-item {
+      display: flex;
+      align-items: center;
+    }
+    
+    .legend-color {
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+      border-radius: 3px;
+    }
+    
+    .legend-label {
+      font-size: 14px;
+    }
+    
+    .legend-line {
+      width: 30px;
+      height: 3px;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="viz-container" id="visualization"></div>
+    <div class="legend" id="legend"></div>
+    <div class="controls">
+      <button id="exportSVG">Export as SVG</button>
+      <button id="exportPDF">Export as PDF</button>
+    </div>
+  </div>
+
+  <!-- Import D3.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+  <!-- Import jsPDF for PDF export -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script>
+    // Main visualization code
+    document.addEventListener('DOMContentLoaded', function() {
+      // Get the container dimensions
+      const container = document.getElementById('visualization');
+      const width = container.clientWidth;
+      const height = 900;
+      
+      // Create the SVG element
+      const svg = d3.select('#visualization')
+        .append('svg')
+        .attr('width', width)
+        .attr('height', height)
+        .attr('viewBox', [0, 0, width, height])
+        .attr('style', 'max-width: 100%; height: auto;');
+      
+      // Add background
+      svg.append('rect')
+        .attr('width', width)
+        .attr('height', height)
+        .attr('fill', '#ffffff')
+        .attr('stroke', '#ddd');
+      
+      // Define department sizes based on specified areas
+      const departmentSizes = {
+        "Informatics": 8,
+        "Chemistry": 3,
+        "Physics": 4,
+        "Mathematics": 8,
+        "Engineering": 6
+      };
+      
+      // Calculate the radius from area (Area = π * r²)
+      // So r = sqrt(Area / π)
+      const getRadiusFromArea = (area) => {
+        const scaleFactor = 45; // Adjust this to scale all circles appropriately
+        return Math.sqrt(area / Math.PI) * scaleFactor;
+      };
+      
+      // Define the data - nodes
+      const nodes = [
+        // Faculty
+        { id: "NMES", name: "Faculty of NMES", group: 1  },
+        
+        // Departments
+        { id: "Informatics", name: "Informatics", group: 2, area: departmentSizes["Informatics"] },
+        { id: "Mathematics", name: "Mathematics", group: 2, area: departmentSizes["Mathematics"] },
+        { id: "Physics", name: "Physics", group: 2, area: departmentSizes["Physics"] },
+        { id: "Chemistry", name: "Chemistry", group: 2, area: departmentSizes["Chemistry"] },
+        { id: "Engineering", name: "Engineering", group: 2, area: departmentSizes["Engineering"] },
+        
+        // Informatics Research Groups
+        { id: "I_AA", name: "Algorithms & Data Analysis", group: 3, dept: "Informatics" },
+        { id: "I_CS", name: "Cybersecurity", group: 3, dept: "Informatics" },
+        { id: "I_SS", name: "Software Systems", group: 3, dept: "Informatics" },
+        { id: "I_HCC", name: "Human Centred Computing", group: 3, dept: "Informatics" },
+        { id: "I_DC", name: "Distributed AI", group: 3, dept: "Informatics" },
+        { id: "I_RP", name: "Reasoning & Planning", group: 3, dept: "Informatics" },
+
+        // Mathematics Research Groups
+        { id: "M_A", name: "Analysis", group: 3, dept: "Mathematics" },
+        { id: "M_DS", name: "Disordered Systems", group: 3, dept: "Mathematics" },
+        { id: "M_FM", name: "Financial", group: 3, dept: "Mathematics" },
+        { id: "M_G", name: "Geometry", group: 3, dept: "Mathematics" },
+        { id: "M_NT", name: "Number Theory", group: 3, dept: "Mathematics" },
+        { id: "M_P", name: "Probability", group: 3, dept: "Mathematics" },
+        { id: "M_S", name: "Statistics", group: 3, dept: "Mathematics" },
+        { id: "M_TP", name: "Theoretical Physics", group: 3, dept: "Mathematics" },
+        
+        // Physics Research Groups
+        { id: "P_PE", name: " Education", group: 3, dept: "Physics" },
+        { id: "P_BP", name: "Biological & Soft Matter", group: 3, dept: "Physics" },
+        { id: "P_PN", name: "Photonics & Nanotechnology", group: 3, dept: "Physics" },
+        { id: "P_TP", name: "Theoretical Particle & Cosmology", group: 3, dept: "Physics" },
+        { id: "P_CM", name: "Theory & Simulation of Condensed Matter", group: 3, dept: "Physics" },
+        { id: "P_EA", name: "Experimental Particle & Astroparticle", group: 3, dept: "Physics" },
+        
+        // Chemistry Research Themes
+        { id: "C_L", name: "Chemistry of Life", group: 3, dept: "Chemistry" },
+        { id: "C_B", name: " Biotechnology", group: 3, dept: "Chemistry" },
+        { id: "C_S", name: "Sustainable", group: 3, dept: "Chemistry" },
+        { id: "C_M", name: "New Materials", group: 3, dept: "Chemistry" },
+        
+        // Engineering Research Themes
+        { id: "E_CI", name: "Communication & Information", group: 3, dept: "Engineering" },
+        { id: "E_C", name: "Computational", group: 3, dept: "Engineering" },
+        { id: "E_DC", name: "Data-Centric", group: 3, dept: "Engineering" },
+        { id: "E_DM", name: "Design & Mechatronics", group: 3, dept: "Engineering" },
+        { id: "E_EP", name: "Energy & Power Systems", group: 3, dept: "Engineering" },
+        { id: "E_MM", name: "Manufacturing, Materials & Systems", group: 3, dept: "Engineering" },
+        { id: "E_SC", name: "Signals & Control", group: 3, dept: "Engineering" }
+      ];
+      
+      // Define links
+      const links = [
+        // Faculty to departments
+        { source: "NMES", target: "Informatics", value: 2 },
+        { source: "NMES", target: "Mathematics", value: 2 },
+        { source: "NMES", target: "Physics", value: 2 },
+        { source: "NMES", target: "Chemistry", value: 2 },
+        { source: "NMES", target: "Engineering", value: 2 },
+      ];
+      
+      // Add links from departments to their research groups
+      nodes.forEach(node => {
+        if (node.group === 3) {
+          links.push({
+            source: node.dept,
+            target: node.id,
+            value: 1
+          });
+        }
+      });
+      
+      // All interdisciplinary links collected in one array
+      const interdisciplinaryLinks = [
+        // PSoL (Pathways and Systems of Life) Interdisciplinary Theme
+        { source: "C_B", target: "C_L", value: 0.5, type: "interdisciplinary", theme: "PSoL" },
+        { source: "C_L", target: "P_BP", value: 0.5, type: "interdisciplinary", theme: "PSoL" },
+        { source: "P_BP", target: "P_CM", value: 0.5, type: "interdisciplinary", theme: "PSoL" },
+        
+        // NetZero Interdisciplinary Theme
+        { source: "C_S", target: "C_M", value: 0.5, type: "interdisciplinary", theme: "NetZero" },
+        { source: "C_M", target: "C_B", value: 0.5, type: "interdisciplinary", theme: "NetZero" },
+        { source: "C_B", target: "P_PN", value: 0.5, type: "interdisciplinary", theme: "NetZero" },
+        { source: "P_PN", target: "M_FM", value: 0.5, type: "interdisciplinary", theme: "NetZero" },
+        { source: "M_FM", target: "M_S", value: 0.5, type: "interdisciplinary", theme: "NetZero" },
+        { source: "M_S", target: "I_HCC", value: 0.5, type: "interdisciplinary", theme: "NetZero" },
+        { source: "I_HCC", target: "I_RP", value: 0.5, type: "interdisciplinary", theme: "NetZero" },
+        { source: "I_RP", target: "E_SC", value: 0.5, type: "interdisciplinary", theme: "NetZero" },
+        { source: "E_SC", target: "E_EP", value: 0.5, type: "interdisciplinary", theme: "NetZero" },
+        
+        // CUSP Interdisciplinary Theme
+        { source: "E_MM", target: "E_EP", value: 0.5, type: "interdisciplinary", theme: "CUSP" },
+        { source: "E_EP", target: "E_CI", value: 0.5, type: "interdisciplinary", theme: "CUSP" },
+        { source: "E_CI", target: "I_SS", value: 0.5, type: "interdisciplinary", theme: "CUSP" },
+        
+        // Kings Quantum Interdisciplinary Theme
+        { source: "C_B", target: "P_PN", value: 0.5, type: "interdisciplinary", theme: "KingsQuantum" },
+        { source: "P_PN", target: "E_C", value: 0.5, type: "interdisciplinary", theme: "KingsQuantum" },
+        
+        // Finance Interdisciplinary Theme
+        { source: "I_CS", target: "I_AA", value: 0.5, type: "interdisciplinary", theme: "Finance" },
+        { source: "I_AA", target: "I_SS", value: 0.5, type: "interdisciplinary", theme: "Finance" },
+        
+        // Trusted Autonomous Systems Interdisciplinary Theme
+        { source: "E_DM", target: "I_HCC", value: 0.5, type: "interdisciplinary", theme: "TrustedAutonomous" },
+        { source: "I_HCC", target: "I_CS", value: 0.5, type: "interdisciplinary", theme: "TrustedAutonomous" }
+      ];
+      
+      // Add all interdisciplinary links to the links array
+      links.push(...interdisciplinaryLinks);
+      
+      // Color scheme
+      const colorScheme = {
+        1: "#AAAAAA", // Faculty
+        2: null,      // Departments - color will be assigned based on dept name
+        3: null       // Research Groups/Themes - color will be assigned based on dept
+      };
+      
+      // Get department color from node department
+      const getDeptColor = (node) => {
+        const deptColors = {
+          "Informatics": "#6A3D99", // Purple from image
+          "Mathematics": "#2D74BA", // Blue from image
+          "Physics": "#30A8D5",     // Light blue/cyan from image
+          "Chemistry": "#3EB5A0",   // Teal/turquoise from image
+          "Engineering": "#B8C747"  // Lime green from image
+        };
+        
+        if (node.group === 1) return colorScheme[1];
+        if (node.group === 2) return deptColors[node.id];
+        return deptColors[node.dept];
+      };
+      
+      // Position departments in a circle around NMES
+      const centerX = width / 2;
+      const centerY = height / 2;
+      const radius = 200; // Slightly larger radius
+      
+      // Set NMES at center
+      const nmesNode = nodes.find(n => n.id === "NMES");
+      if (nmesNode) {
+        nmesNode.fx = centerX;
+        nmesNode.fy = centerY;
+      }
+      
+      // Set departments in a circle
+      const departments = nodes.filter(n => n.group === 2);
+      departments.forEach((dept, i) => {
+        const angle = (i / departments.length) * 2 * Math.PI;
+        dept.fx = centerX + radius * Math.cos(angle);
+        dept.fy = centerY + radius * Math.sin(angle);
+      });
+      
+      // Create the force simulation
+      const simulation = d3.forceSimulation(nodes)
+        .force("link", d3.forceLink(links).id(d => d.id).distance(d => {
+          // Different distances based on link type
+          if (d.source.id === "NMES") return 300;
+          if (d.type === "interdisciplinary") return 100; // Longer distance for all interdisciplinary links
+          return 100;
+        }).strength(d => {
+          // Weaker strength for interdisciplinary connections
+          if (d.type === "interdisciplinary") return 0.01;
+          return 0.7; // Stronger connections for departmental structure
+        }))
+        .force("charge", d3.forceManyBody().strength(-100)) // Stronger repulsion
+        .force("center", d3.forceCenter(width / 2, height / 2))
+        // Apply radial force for research groups around their departments
+        .force("radial", d3.forceRadial(d => {
+          if (d.group === 1) return 0; // NMES at center
+          if (d.group === 2) return radius + 100; // Departments at fixed radius
+          return radius * 3; // Research groups further out
+        }, centerX, centerY).strength(d => d.group === 2.5 ? 0.5 : 0))
+        .force("collision", d3.forceCollide().radius(d => {
+          if (d.id === "NMES") return 100;
+          if (d.group === 2) {
+            // For departments, use the area-based radius plus some padding
+            return getRadiusFromArea(d.area) + 10;
+          }
+          return 45;
+        }));
+      
+      // Create the links
+      const link = svg.append("g")
+        .selectAll("line")
+        .data(links)
+        .join("line")
+        .attr("stroke", d => {
+          // All interdisciplinary links should be red
+          if (d.type === "interdisciplinary") return "#E83A68";
+          // Default gray for department links
+          return "#999";
+        })
+        .attr("stroke-opacity", d => d.type === "interdisciplinary" ? 0.9 : 0.6)
+        .attr("stroke-width", d => d.type === "interdisciplinary" ? 2.5 : Math.sqrt(d.value) * 3)
+        .attr("stroke-dasharray", d => {
+          // All interdisciplinary links should have the same dotted style
+          if (d.type === "interdisciplinary") return "5,5";
+          // No dash for regular links
+          return null;
+        })
+        .attr("title", d => d.theme ? d.theme : "Department Connection");
+      
+      // Create the nodes - with a background group first
+      const nodeGroup = svg.append("g");
+      
+      // Add a semi-transparent background rectangle for each research group text
+      const textBackgrounds = nodeGroup.selectAll(".text-bg")
+        .data(nodes.filter(d => d.group === 3))
+        .join("rect")
+        .attr("class", "text-bg")
+        .attr("fill", "#ffffff")
+        .attr("opacity", 0.7) // More transparent background
+        .attr("rx", 3)
+        .attr("ry", 3)
+        .attr("width", 0)  // Will be set later after text is created
+        .attr("height", 0) // Will be set later after text is created
+        .attr("x", 0)
+        .attr("y", 0);
+      
+      // Create the nodes
+      const node = nodeGroup.selectAll(".node")
+        .data(nodes)
+        .join("g")
+        .attr("class", "node")
+        .call(drag(simulation));
+      
+      // Add circles to nodes
+      node.append("circle")
+        .attr("r", d => {
+          if (d.id === "NMES") return 40;
+          if (d.group === 2) {
+            // Use the area to determine the radius
+            return getRadiusFromArea(d.area);
+          }
+          return 12;
+        })
+        .attr("fill", d => getDeptColor(d))
+        .attr("stroke", "#fff")
+        .attr("stroke-width", 2);
+      
+      // Add labels to nodes
+      node.append("text")
+        .attr("class", d => {
+          if (d.id === "NMES") return "node-label-faculty";
+          if (d.group === 2) return "node-label-dept";
+          return "node-label";
+        })
+        .attr("x", 0)
+        .attr("y", d => {
+          // Position text inside circle for faculty and departments
+          if (d.id === "NMES" || d.group === 2) return 0;
+          // Position text below circle for research groups
+          return 28;
+        })
+        .attr("dy", ".35em")
+        .text(d => {
+          if (d.group === 3) {
+            return d.name;
+          }
+          return d.id;
+        })
+        .each(function(d) {
+          // Apply text wrapping only to research group labels
+          if (d.group === 3) {
+            const text = d3.select(this);
+            const words = text.text().split(/\s+/);
+            
+            // Clear the current text
+            text.text(null);
+            
+            // Create multiple tspan elements for wrapping
+            let lineNumber = 0;
+            const lineHeight = 3.1;
+            let currentLine = "";
+            const maxWidth = 150; // Maximum width for research group labels
+            
+            words.forEach((word, i) => {
+              const testLine = currentLine + (currentLine ? " " : "") + word;
+              const testElem = text.append("tspan")
+                .attr("x", 0)
+                .text(testLine);
+              
+              // Check if adding this word exceeds the max width
+              const testWidth = testElem.node().getComputedTextLength();
+              
+              if (testWidth > maxWidth && i > 0) {
+                // Start a new line
+                text.append("tspan")
+                  .attr("x", 0)
+                  .attr("dy", lineNumber === 0 ? 0 : lineHeight + "em")
+                  .text(currentLine);
+                
+                currentLine = word;
+                lineNumber++;
+                testElem.remove();
+              } else {
+                currentLine = testLine;
+                testElem.remove();
+              }
+              
+              // For the last word or single-word case
+              if (i === words.length - 1) {
+                text.append("tspan")
+                  .attr("x", 0)
+                  .attr("dy", lineNumber === 0 ? 0 : lineHeight + "em")
+                  .text(currentLine);
+              }
+            });
+            
+            // Adjust vertical position based on number of lines
+            const tspans = text.selectAll("tspan");
+            const lineCount = tspans.size();
+            
+            if (lineCount > 1) {
+              // Center the text block vertically
+              tspans.attr("dy", (d, i) => {
+                return (i - (lineCount - 1) / 2) * lineHeight + "em";
+              });
+            }
+          }
+        });
+      
+      // Add tooltips for nodes
+      node.append("title")
+        .text(d => {
+          if (d.group === 3) {
+            return `${d.name} (${d.dept})`;
+          }
+          if (d.group === 2) {
+            return `${d.name} (Area: ${d.area})`;
+          }
+          return d.name;
+        });
+      
+      // Update positions
+      simulation.on("tick", () => {
+        link
+          .attr("x1", d => d.source.x)
+          .attr("y1", d => d.source.y)
+          .attr("x2", d => d.target.x)
+          .attr("y2", d => d.target.y);
+        
+        node.attr("transform", d => {
+          // Apply boundaries only to non-fixed nodes
+          if (!d.fx && !d.fy) {
+            d.x = Math.max(30, Math.min(width - 30, d.x));
+            d.y = Math.max(30, Math.min(height - 30, d.y));
+          }
+          return `translate(${d.x},${d.y})`;
+        });
+        
+        // Update the background rectangles for text
+        textBackgrounds.attr("transform", d => `translate(${d.x},${d.y})`);
+      });
+      
+      // Drag functionality
+      function drag(simulation) {
+        function dragstarted(event) {
+          if (!event.active) simulation.alphaTarget(0.3).restart();
+          // Store original positions
+          if (event.subject.id === "NMES" || event.subject.group === 2) {
+            // For fixed nodes, don't update the fx/fy as they're already set
+            event.subject._originalFx = event.subject.fx;
+            event.subject._originalFy = event.subject.fy;
+          } else {
+            event.subject.fx = event.subject.x;
+            event.subject.fy = event.subject.y;
+          }
+        }
+        
+        function dragged(event) {
+          // Only move non-fixed nodes or temporarily allow fixed node movement
+          event.subject.fx = event.x;
+          event.subject.fy = event.y;
+        }
+        
+        function dragended(event) {
+          if (!event.active) simulation.alphaTarget(0);
+          
+          // Restore original fixed positions for NMES and departments
+          if (event.subject.id === "NMES" || event.subject.group === 2) {
+            event.subject.fx = event.subject._originalFx;
+            event.subject.fy = event.subject._originalFy;
+          } else {
+            // Regular nodes return to being unfixed
+            event.subject.fx = null;
+            event.subject.fy = null;
+          }
+        }
+        
+        return d3.drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended);
+      }
+      
+      // Create a legend
+      const legend = d3.select('#legend');
+      
+      // Department colors for legend
+      const deptColors = {
+        "Informatics": "#6A3D99",
+        "Mathematics": "#2D74BA",
+        "Physics": "#30A8D5",
+        "Chemistry": "#3EB5A0",
+        "Engineering": "#B8C747",
+        "NMES": "#AAAAAA"
+      };
+      
+      // Add department color legend items including area values
+      Object.entries(deptColors).forEach(([dept, color]) => {
+        // Skip NMES in the area legend
+        if (dept === "NMES") {
+          const legendItem = legend.append('div')
+            .attr('class', 'legend-item');
+          
+          legendItem.append('div')
+            .attr('class', 'legend-color')
+            .style('background-color', color);
+          
+          legendItem.append('div')
+            .attr('class', 'legend-label')
+            .text(dept);
+        } else {
+          const area = departmentSizes[dept] || "";
+          const legendItem = legend.append('div')
+            .attr('class', 'legend-item');
+          
+          legendItem.append('div')
+            .attr('class', 'legend-color')
+            .style('background-color', color);
+          
+          legendItem.append('div')
+            .attr('class', 'legend-label')
+            .text(`${dept} (Area: ${area})`);
+        }
+      });
+      
+      // Add interdisciplinary connection legend item
+      const interdisciplinaryLegend = legend.append('div')
+        .attr('class', 'legend-item');
+      
+      interdisciplinaryLegend.append('div')
+        .attr('class', 'legend-line')
+        .style('background-color', '#E83A68')
+        .style('height', '2.5px')
+        .style('margin-top', '8px')
+        .style('border-top', '1px dashed #E83A68')
+        .style('border-bottom', '1px dashed #E83A68');
+      
+      interdisciplinaryLegend.append('div')
+        .attr('class', 'legend-label')
+        .text('Interdisciplinary Connections');
+      
+      // After all nodes are created, update the background rectangles
+      setTimeout(() => {
+        // Update background rectangles for research group labels
+        node.filter(d => d.group === 3).each(function(d) {
+          const nodeElement = d3.select(this);
+          const textElement = nodeElement.select("text");
+          
+          if (textElement.node()) {
+            // Find all tspans within this text
+            const tspans = textElement.selectAll("tspan");
+            const lineCount = tspans.size();
+            
+            if (lineCount > 0) {
+              // Calculate the background rectangle size
+              const textBox = textElement.node().getBBox();
+              const padding = 4;
+              
+              // Find the matching background rect for this node
+              textBackgrounds.filter(bg => bg.id === d.id)
+                .attr("width", textBox.width + padding * 2)
+                .attr("height", textBox.height + padding * 2)
+                .attr("x", -textBox.width/2 - padding)
+                .attr("y", textBox.y - padding);
+            }
+          }
+        });
+      }, 1000); // Wait a bit to ensure all text elements are rendered
+      
+      // SVG Export functionality
+      document.getElementById('exportSVG').addEventListener('click', function() {
+        // Get the SVG element
+        const svgElement = document.querySelector('svg');
+        
+        // Clone the SVG to avoid modifying the original
+        const clonedSvg = svgElement.cloneNode(true);
+        
+        // Add namespaces needed for the SVG
+        clonedSvg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+        clonedSvg.setAttribute('xmlns:xlink', 'http://www.w3.org/1999/xlink');
+        
+        // Convert SVG to a string
+        const serializer = new XMLSerializer();
+        let source = serializer.serializeToString(clonedSvg);
+        
+        // Add XML declaration
+        source = '<?xml version="1.0" standalone="no"?>\r\n' + source;
+        
+        // Convert the SVG string to a blob
+        const svgBlob = new Blob([source], {type: 'image/svg+xml;charset=utf-8'});
+        
+        // Create a URL for the blob
+        const svgUrl = URL.createObjectURL(svgBlob);
+        
+        // Create a download link
+        const downloadLink = document.createElement('a');
+        downloadLink.href = svgUrl;
+        downloadLink.download = 'nmes_faculty_network.svg';
+        
+        // Trigger the download
+        document.body.appendChild(downloadLink);
+        downloadLink.click();
+        document.body.removeChild(downloadLink);
+        
+        // Clean up the URL
+        URL.revokeObjectURL(svgUrl);
+      });
+      
+      // PDF Export functionality
+      document.getElementById('exportPDF').addEventListener('click', function() {
+        // Get the SVG element and its dimensions
+        const svgElement = document.querySelector('svg');
+        const bbox = svgElement.getBBox();
+        
+        // Calculate the aspect ratio
+        const aspectRatio = bbox.width / bbox.height;
+        
+        // Convert SVG to a string
+        const serializer = new XMLSerializer();
+        const source = serializer.serializeToString(svgElement);
+        
+        // Create a canvas to render the SVG
+        const canvas = document.createElement('canvas');
+        const ctx = canvas.getContext('2d');
+        
+        // Set PDF page size (A4 or custom size based on SVG aspect ratio)
+        let pdfWidth = 210; // A4 width in mm
+        let pdfHeight = 297; // A4 height in mm
+        
+        if (aspectRatio > 1) {
+          // Landscape orientation
+          [pdfWidth, pdfHeight] = [pdfHeight, pdfWidth];
+        }
+        
+        // Create a new jsPDF instance with the appropriate orientation
+        const { jsPDF } = window.jspdf;
+        const pdf = new jsPDF({
+          orientation: aspectRatio > 1 ? 'landscape' : 'portrait',
+          unit: 'mm',
+          format: [pdfWidth, pdfHeight]
+        });
+        
+        // Create an Image element to draw the SVG on the canvas
+        const img = new Image();
+        img.src = 'data:image/svg+xml;base64,' + btoa(unescape(encodeURIComponent(source)));
+        
+        img.onload = function() {
+          // Set canvas dimensions to match the SVG
+          canvas.width = img.width;
+          canvas.height = img.height;
+          
+          // Draw the SVG on the canvas
+          ctx.drawImage(img, 0, 0);
+          
+          // Get the canvas as a data URL
+          const imgData = canvas.toDataURL('image/png');
+          
+          // Calculate the dimensions to fit the PDF page
+          const pageWidth = pdf.internal.pageSize.getWidth();
+          const pageHeight = pdf.internal.pageSize.getHeight();
+          
+          // Calculate scale to fit the image inside the page with margins
+          const margin = 10; // mm
+          const maxWidth = pageWidth - 2 * margin;
+          const maxHeight = pageHeight - 2 * margin;
+          
+          let imgWidth = maxWidth;
+          let imgHeight = imgWidth / aspectRatio;
+          
+          if (imgHeight > maxHeight) {
+            imgHeight = maxHeight;
+            imgWidth = imgHeight * aspectRatio;
+          }
+          
+          // Add the image to the PDF
+          pdf.addImage(imgData, 'PNG', margin, margin, imgWidth, imgHeight);
+          
+          // Save the PDF
+          pdf.save('nmes_faculty_network.pdf');
+        };
+      });
+    });
+  </script>
+</body>
+</html>
