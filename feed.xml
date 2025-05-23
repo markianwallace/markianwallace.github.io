@@ -5,14 +5,81 @@
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Mar 2025 11:59:36 +0000</pubDate>
-    <lastBuildDate>Thu, 20 Mar 2025 11:59:36 +0000</lastBuildDate>
+    <pubDate>Fri, 23 May 2025 14:17:05 +0000</pubDate>
+    <lastBuildDate>Fri, 23 May 2025 14:17:05 +0000</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>Orchestrating Self-Replication in Artificial Cells through Digital Microfluidics</title>
+        <description>&lt;p&gt;&lt;label for=&quot;DMF Replicator&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;DMF Replicator&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/DMF_replicator.gif&quot; /&gt;&lt;br /&gt;DMF Replicator&lt;/span&gt;
+A defining feature of living cells is their ability to self-replicate; but creating artificial cells with this capability remains challenging, due to the complexity of biological division machinery. Rather than seeking to reconstitute this machinery, here we take direct control of DNA replication and compartment division using digital microfluidics. This approach allows us to precisely orchestrate these two fundamental processes, providing insight into how they must be coupled for successful self-replication.
+&lt;!--more--&gt;
+ Our system achieves autonomous cycles of replication and division, with daughter compartments inheriting parental DNA and maintaining genetic continuity across multiple generations - a key feature of living systems that has been difficult to achieve in artificial cells. By implementing these processes through direct physical manipulation rather than biochemical complexity, we provide a simple testbed that will help to disentangle the essential requirements for self-replicating systems.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+        <link>/articles/25/Zhai_Biorxiv</link>
+        <guid isPermaLink="true">/articles/25/Zhai_Biorxiv</guid>
+        
+        
+        <category>papers</category>
+        
+      </item>
+    
+      <item>
+        <title>Group Scientific Away Day in Brighton</title>
+        <description>&lt;figure&gt;&lt;img src=&quot;/assets/img/group/Brighton.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Escaped from London and let loose on Brighton for a day of science and some fun.&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;!--more--&gt;
+
+</description>
+        <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+        <link>/articles/25/Brighton</link>
+        <guid isPermaLink="true">/articles/25/Brighton</guid>
+        
+        <category>fun</category>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Triply Responsive Control of Anion/Cation Transport with an Artificial Ion Channel Responsive to Multiple Stimuli</title>
+        <description>&lt;p&gt;&lt;label for=&quot;azo-p5&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;azo-p5&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/Malla_2025.jpg&quot; /&gt;&lt;br /&gt;azo-p5 ion channels.&lt;/span&gt;
+We present a synthetic ion channel whose activity can be controlled by three orthogonal stimuli (light, pH, guest/ligand). The channel is formed from a pillar[5]arene functionalized with photoswitchable tetrafluoroazobenzene moieties. We demonstrate excellent control over E:Z switching across ten incorporated photoswitches (E to Z 87%, Z to E quant.). We show that the most active isomer – the Z-isomer – forms dimeric ion channels in membranes, with selectivity for M+/Cl− symport. Single molecule planar bilayer conductance studies show distinct high and low conductance states dependent on irradiation wavelength. Finally, we demonstrate that this activity can be modulated over 170-fold by controlling pH, irradiation, and guest addition, creating a powerful addition to the canon of synthetic ion channels.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+        <link>/articles/25/Malla_ChemRxiv</link>
+        <guid isPermaLink="true">/articles/25/Malla_ChemRxiv</guid>
+        
+        
+        <category>papers</category>
+        
+      </item>
+    
+      <item>
+        <title>Rational Design Principles for De Novo α-Helical Peptide Barrels with Dynamic Conductive Channels</title>
+        <description>&lt;p&gt;&lt;label for=&quot;aHB&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;aHB&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/Nitsu_2024.jpg&quot; /&gt;&lt;br /&gt;α-helical peptide channels.&lt;/span&gt;
+Despite advances in peptide and protein design, the rational design of membrane-spanning peptides that form conducting channels remains challenging due to our imperfect understanding of the sequence-to-structure relationships that drive membrane insertion, assembly, and conductance. Here, we describe the design and computational and experimental characterization of a series of coiled coil-based peptides that form transmembrane α-helical barrels with conductive channels.&lt;/p&gt;
+
+&lt;!--more--&gt;
+&lt;p&gt;Through a combination of rational and computational design, we obtain barrels with 5 to 7 helices, as characterized in detergent micelles. In lipid bilayers, these peptide assemblies exhibit two conductance states with relative populations dependent on the applied potential: (i) low-conductance states that correlate with variations in the designed amino-acid sequences and modeled coiled-coil barrel geometries, indicating stable transmembrane α-helical barrels; and (ii) high-conductance states in which single channels change size in discrete steps. Notably, the high-conductance states are similar for all peptides in contrast to the low-conductance states. This indicates the formation of large, dynamic channels, as observed in natural barrel-stave peptide channels. These findings establish rational routes to design and tune functional membrane-spanning peptide channels with specific conductance and geometry. Published in JACS.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+        <link>/articles/25/Nitsu_NatComms</link>
+        <guid isPermaLink="true">/articles/25/Nitsu_NatComms</guid>
+        
+        
+        <category>papers</category>
+        
+      </item>
     
       <item>
         <title>Real-time label-free imaging of living crystallization-driven self-assembly</title>
         <description>&lt;p&gt;&lt;label for=&quot;CDSA&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;CDSA&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/Guo_2024.gif&quot; /&gt;&lt;br /&gt;Real-time label-free imaging of living crystallization-driven self-assembly.&lt;/span&gt;
-Our latest work now published in hashtag#NatureCommunications. This is the last of our pandemic papers, so no membrane biophysics! Applying label-free microscopy to watch polymer self-assembly in real-time. This lets us map directly how reaction parameters affect the composition and growth of individual 2D polymer microplatelets. A fantastic collaboration with Rachel O’Reilly at the University of Birmingham. Congratulations go to Yujie GUO, PhD for another fantastic bit of science.&lt;/p&gt;
+Our latest work now published in Nature Communications. This is the last of our pandemic papers, so no membrane biophysics! Applying label-free microscopy to watch polymer self-assembly in real-time. This lets us map directly how reaction parameters affect the composition and growth of individual 2D polymer microplatelets. A fantastic collaboration with Rachel O’Reilly at the University of Birmingham. Congratulations go to Yujie Guo for another fantastic bit of science.&lt;/p&gt;
 </description>
         <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
         <link>/articles/25/Guo_CDSA</link>
@@ -64,8 +131,8 @@ nanobiotechnology applications in cell-free systems.&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
-        <link>/articles/24/Christmas</link>
-        <guid isPermaLink="true">/articles/24/Christmas</guid>
+        <link>/articles/24/Christmas-2</link>
+        <guid isPermaLink="true">/articles/24/Christmas-2</guid>
         
         <category>fun</category>
         
@@ -76,11 +143,11 @@ nanobiotechnology applications in cell-free systems.&lt;/p&gt;
     
       <item>
         <title>De novo design of α-helical peptide channels with designer stoichiometry</title>
-        <description>&lt;p&gt;&lt;label for=&quot;CDSA&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;CDSA&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/Nitsu_2024.jpg&quot; /&gt;&lt;br /&gt;α-helical peptide channels.&lt;/span&gt;
+        <description>&lt;p&gt;&lt;label for=&quot;aHB&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;aHB&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/Nitsu_2024.jpg&quot; /&gt;&lt;br /&gt;α-helical peptide channels.&lt;/span&gt;
 Despite advances in peptide and protein design, the rational design of membrane-spanning peptides that form conducting channels remains challenging due to our imperfect understanding of the sequence-to-structure relationships that drive membrane insertion, assembly, and conductance. Here, we describe the design and computational and experimental characterization of a series of coiled coil-based peptides that form transmembrane α-helical barrels.&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
         <link>/articles/24/Nitsu_biorxiv</link>
         <guid isPermaLink="true">/articles/24/Nitsu_biorxiv</guid>
         
@@ -104,69 +171,6 @@ Despite advances in peptide and protein design, the rational design of membrane-
         <category>people</category>
         
         <category>current</category>
-        
-      </item>
-    
-      <item>
-        <title>Spatial light modulation for interferometric scattering microscopy</title>
-        <description>&lt;p&gt;&lt;label for=&quot;CDSA&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;CDSA&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/Walter_SLM.jpg&quot; /&gt;&lt;br /&gt;Spatial light modulation for interferometric scattering microscopy
-.&lt;/span&gt;
-Interferometric scattering (iSCAT) microscopy enables high-speed and label-free detection of individual molecules and small nanoparticles. Here we apply point spread function engineering to provide adaptive control of iSCAT images using spatial light modulation. With this approach, we demonstrate improved dynamic spatial filtering, real-time background subtraction, focus control, and signal modulation based on sample orientation.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
-        <link>/articles/24/Walter</link>
-        <guid isPermaLink="true">/articles/24/Walter</guid>
-        
-        
-        <category>papers</category>
-        
-      </item>
-    
-      <item>
-        <title>Science Away Day on the Strand</title>
-        <description>&lt;figure&gt;&lt;img src=&quot;/assets/img/group/awayday_2024.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Some of the lab up on the terrace of Bush House grabbing lunch on our internal &amp;#8216;Science Day&amp;#8217;&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;!--more--&gt;
-
-</description>
-        <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-        <link>/articles/24/AwayDay</link>
-        <guid isPermaLink="true">/articles/24/AwayDay</guid>
-        
-        <category>fun</category>
-        
-        
-        <category>news</category>
-        
-      </item>
-    
-      <item>
-        <title>Real-time label-free imaging of living crystallization-driven self-assembly</title>
-        <description>&lt;p&gt;&lt;label for=&quot;CDSA&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;CDSA&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/Guo_2024.gif&quot; /&gt;&lt;br /&gt;Real-time label-free imaging of living crystallization-driven self-assembly.&lt;/span&gt;
-The living crystallization-driven self-assembly (CDSA) of semicrystalline block copoly- mers is a powerful method for the bottom-up construction of uniform polymer mi- crostructures with complex hierarchies. Improving our ability to engineer such complex particles demands a better understanding of precisely how to control the self-assembly process. Here, we apply interferometric scattering microscopy (iSCAT) to deliver real- time observation of individual poly(ε-caprolactone)-based platelet growth. This label-free method enables us to map the role of key reaction parameters on platelet growth rate, size, and morphology. Furthermore, iSCAT provides a contrast mechanism for studying multi-layer platelets, offering new insights into the distribution of polymer compositions within a single platelet.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
-        <link>/articles/24/Guo_chemrxiv-2</link>
-        <guid isPermaLink="true">/articles/24/Guo_chemrxiv-2</guid>
-        
-        
-        <category>papers</category>
-        
-      </item>
-    
-      <item>
-        <title>Christmas Dinner in London</title>
-        <description>&lt;figure&gt;&lt;img src=&quot;/assets/img/group/WallacelabChristmas2023_1.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Dinner and drinks in London. At least for the 1/2 of the lab that wasn&amp;#8217;t sick!&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;!--more--&gt;
-
-</description>
-        <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
-        <link>/articles/23/Christmas</link>
-        <guid isPermaLink="true">/articles/23/Christmas</guid>
-        
-        <category>fun</category>
-        
-        
-        <category>news</category>
         
       </item>
     
