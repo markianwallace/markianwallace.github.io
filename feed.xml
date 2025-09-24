@@ -5,8 +5,8 @@
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 23 Sep 2025 10:11:09 +0000</pubDate>
-    <lastBuildDate>Tue, 23 Sep 2025 10:11:09 +0000</lastBuildDate>
+    <pubDate>Wed, 24 Sep 2025 13:24:59 +0000</pubDate>
+    <lastBuildDate>Wed, 24 Sep 2025 13:24:59 +0000</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
     
       <item>
@@ -91,6 +91,23 @@ Our latest work now published in Nature Communications. This is the last of our 
       </item>
     
       <item>
+        <title>Yimeng Zhu</title>
+        <description>&lt;p&gt;&lt;label for=&quot; Yimeng Zhu&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot; Yimeng Zhu&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/yimeng_mugshot_small.png&quot; /&gt;&lt;br /&gt;Yimeng Zhu&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Yimeng joined the group as a BiPAS PhD student after completing her BSc in Neuropharmacology at King’s College London and her MSc in Neuroimaging at UCL. Her project will focus on the de novo design of protein channels and their application in creating artificial synapses between synthetic and biological cells.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/articles/25/YimengZhu</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/25/YimengZhu</guid>
+        
+        
+        <category>people</category>
+        
+        <category>current</category>
+        
+      </item>
+    
+      <item>
         <title>Sharavanakkumar Sundararajan Kasiviswanathan</title>
         <description>&lt;p&gt;&lt;label for=&quot; Sharavanakkumar Sundararajan Kasiviswanathan&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot; Sharavanakkumar Sundararajan Kasiviswanathan&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/sharavana_mugshot.png&quot; /&gt;&lt;br /&gt;Sharavanakkumar Sundararajan Kasiviswanathan&lt;/span&gt;&lt;/p&gt;
 
@@ -156,23 +173,6 @@ nanobiotechnology applications in cell-free systems.&lt;/p&gt;
         <category>people</category>
         
         <category>current</category>
-        
-      </item>
-    
-      <item>
-        <title>Christmas Dinner in Covent Garden</title>
-        <description>&lt;figure&gt;&lt;img src=&quot;/assets/img/Christmas_2024.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Hotpot at Leicester Square and an early Christmas present from the group (I think&amp;#8230;)&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;!--more--&gt;
-
-</description>
-        <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/articles/24/Christmas-2</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/24/Christmas-2</guid>
-        
-        <category>fun</category>
-        
-        
-        <category>news</category>
         
       </item>
     
