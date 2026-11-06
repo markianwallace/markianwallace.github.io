@@ -5,9 +5,26 @@
     <description>We are the Wallace lab at King’s College London. We build artificial mimics of cell membranes; both to improve our understanding of membrane biology, and to engineer new devices inspired by biology.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 30 Oct 2025 09:34:27 +0000</pubDate>
-    <lastBuildDate>Thu, 30 Oct 2025 09:34:27 +0000</lastBuildDate>
+    <pubDate>Fri, 06 Nov 2026 14:44:56 +0000</pubDate>
+    <lastBuildDate>Fri, 06 Nov 2026 14:44:56 +0000</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>Yimeng Zhu</title>
+        <description>&lt;p&gt;&lt;label for=&quot; Farid Bahada&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot; Farid Bahada&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/people/farid_mugshot_small.png&quot; /&gt;&lt;br /&gt;Farid Bahada&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Farid joins the Wallace Lab as an EB4BM PhD student after completing an MSc in Biotechnology with Distinction at the University of Glasgow. During his MSc, he co-developed a novel acoustic biosensor for creatinine detection, winning two first-place global awards at SensUs 2024. His PhD research focuses on engineering artificial synaptic cells for next-generation brain–computer interfaces. Outside the lab, he is self-proclaimed writer and philosopher with a keen interest in psychology, history, and ancient Yemeni civilisation. He can also read and write in Musnad, the ancient South Arabian script.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+        <link>/articles/26/FaridBahada</link>
+        <guid isPermaLink="true">/articles/26/FaridBahada</guid>
+        
+        
+        <category>people</category>
+        
+        <category>current</category>
+        
+      </item>
     
       <item>
         <title>Kharina Fenton wins prize for PhD talk at Functional Materials 2025</title>
@@ -155,22 +172,6 @@ Our latest work now published in Nature Communications. This is the last of our 
         <category>people</category>
         
         <category>current</category>
-        
-      </item>
-    
-      <item>
-        <title>Ion Transport and Membrane Channel Formation Using a Peptidomimetic in Droplet Interface Bilayers</title>
-        <description>&lt;p&gt;&lt;label for=&quot;CDSA&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;CDSA&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/assets/img/TBP2.jpg&quot; /&gt;&lt;br /&gt;Peptidomimetic channels.&lt;/span&gt;
-Herein, we present a synthetic peptidomimetic, TBP2, which forms artificial membrane channels within Droplet Interface Bilayers (DIBs). Through real-time electrophysiology, TIRF microscopy, and single-channel recordings, we demonstrate the ability of TBP2 to mediate high-conductance transport of Na⁺ and K⁺ across the DIBs, highlighting its potential for
-nanobiotechnology applications in cell-free systems.&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-        <link>/articles/25/Paul_chemcomm</link>
-        <guid isPermaLink="true">/articles/25/Paul_chemcomm</guid>
-        
-        
-        <category>papers</category>
         
       </item>
     
